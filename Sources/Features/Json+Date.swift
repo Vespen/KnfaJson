@@ -67,7 +67,7 @@ public extension Json {
 
     /// Returns the `Date` value identified by a given path.
     ///
-    /// - Parameters
+    /// - Parameters:
     ///     - path: Path.
     ///     - format: Date format.
     /// - Throws: `JsonError`.
@@ -78,19 +78,19 @@ public extension Json {
         switch format {
         case .string(let formatter):
             guard let string = value as? String, let date = formatter.date(from: string) else {
-                throw JsonError.componentTypeMismatch(absolutePath, Date.self)
+                throw JsonError.componentTypeMismatch(absolutePath.appending(path), Date.self)
             }
 
             return date
         case .timestamp:
             guard let number = value as? NSNumber else {
-                throw JsonError.componentTypeMismatch(absolutePath, Date.self)
+                throw JsonError.componentTypeMismatch(absolutePath.appending(path), Date.self)
             }
 
             return Date(timeIntervalSince1970: number.doubleValue)
         case .timestampInMs:
             guard let number = value as? NSNumber else {
-                throw JsonError.componentTypeMismatch(absolutePath, Date.self)
+                throw JsonError.componentTypeMismatch(absolutePath.appending(path), Date.self)
             }
 
             return Date(timeIntervalSince1970: number.doubleValue * 0.001)
