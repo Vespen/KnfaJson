@@ -126,7 +126,7 @@ public final class Json {
         var result: [Json] = []
 
         for (index, item) in array.enumerated() {
-            result.append(Json(root: item, parent: parent, relativePath: path.appending(index: index)))
+            result.append(Json(root: item, parent: self, relativePath: path.appending(index: index)))
         }
 
         return result
