@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "003887681F1C53300049192E"
+               BlueprintIdentifier = "003887DE1F1C656C0049192E"
                BuildableName = "SimpleJson.framework"
                BlueprintName = "SimpleJson watchOS"
-               ReferencedContainer = "container:SimpleJson.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "003887791F1C53320049192E"
-               BuildableName = "Tests.xctest"
-               BlueprintName = "Tests watchOS"
                ReferencedContainer = "container:SimpleJson.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "003887791F1C53320049192E"
-               BuildableName = "Tests.xctest"
-               BlueprintName = "Tests watchOS"
-               ReferencedContainer = "container:SimpleJson.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "003887681F1C53300049192E"
-            BuildableName = "SimpleJson watchOS.framework"
-            BlueprintName = "SimpleJson watchOS"
-            ReferencedContainer = "container:SimpleJson.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -78,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "003887681F1C53300049192E"
+            BlueprintIdentifier = "003887DE1F1C656C0049192E"
             BuildableName = "SimpleJson watchOS.framework"
             BlueprintName = "SimpleJson watchOS"
             ReferencedContainer = "container:SimpleJson.xcodeproj">
@@ -96,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "003887681F1C53300049192E"
+            BlueprintIdentifier = "003887DE1F1C656C0049192E"
             BuildableName = "SimpleJson watchOS.framework"
             BlueprintName = "SimpleJson watchOS"
             ReferencedContainer = "container:SimpleJson.xcodeproj">

@@ -9,39 +9,33 @@
 /* Begin PBXBuildFile section */
 		003089BD1F175A73009E067F /* SimpleJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003089B31F175A73009E067F /* SimpleJson.framework */; };
 		003089CF1F175A90009E067F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003089CE1F175A90009E067F /* Foundation.framework */; };
-		0038872C1F1C52850049192E /* Json+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860CE0E019090842A86771 /* Json+String.swift */; };
-		0038872D1F1C52850049192E /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860CE831C910A884B77563 /* Json.swift */; };
-		0038872E1F1C52850049192E /* JsonPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988606BE37FE360E9FF30F5E /* JsonPath.swift */; };
-		0038872F1F1C52850049192E /* JsonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988605067FDE0104E5F7B601 /* JsonError.swift */; };
-		003887301F1C52850049192E /* Json+Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988603E33114CE6DC9FDD654 /* Json+Number.swift */; };
-		003887311F1C52850049192E /* Json+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886016B96B47EEA40AFEE25 /* Json+Date.swift */; };
-		003887331F1C52850049192E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003089CE1F175A90009E067F /* Foundation.framework */; };
-		003887351F1C52850049192E /* SimpleJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 98860096DCF6C45F8FD498C6 /* SimpleJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		003887401F1C52890049192E /* JsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860BDB0ADD25804FA1E7FC /* JsonTests.swift */; };
-		003887421F1C52890049192E /* SimpleJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003089B31F175A73009E067F /* SimpleJson.framework */; };
-		003887441F1C52890049192E /* Json.json in Resources */ = {isa = PBXBuildFile; fileRef = 9886033E6A4CA163BD8CA7F7 /* Json.json */; };
-		0038874C1F1C53090049192E /* Json+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860CE0E019090842A86771 /* Json+String.swift */; };
-		0038874D1F1C53090049192E /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860CE831C910A884B77563 /* Json.swift */; };
-		0038874E1F1C53090049192E /* JsonPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988606BE37FE360E9FF30F5E /* JsonPath.swift */; };
-		0038874F1F1C53090049192E /* JsonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988605067FDE0104E5F7B601 /* JsonError.swift */; };
-		003887501F1C53090049192E /* Json+Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988603E33114CE6DC9FDD654 /* Json+Number.swift */; };
-		003887511F1C53090049192E /* Json+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886016B96B47EEA40AFEE25 /* Json+Date.swift */; };
-		003887531F1C53090049192E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003089CE1F175A90009E067F /* Foundation.framework */; };
-		003887551F1C53090049192E /* SimpleJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 98860096DCF6C45F8FD498C6 /* SimpleJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0038875F1F1C530C0049192E /* JsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860BDB0ADD25804FA1E7FC /* JsonTests.swift */; };
-		003887611F1C530C0049192E /* SimpleJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003089B31F175A73009E067F /* SimpleJson.framework */; };
-		003887631F1C530C0049192E /* Json.json in Resources */ = {isa = PBXBuildFile; fileRef = 9886033E6A4CA163BD8CA7F7 /* Json.json */; };
-		0038876A1F1C53300049192E /* Json+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860CE0E019090842A86771 /* Json+String.swift */; };
-		0038876B1F1C53300049192E /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860CE831C910A884B77563 /* Json.swift */; };
-		0038876C1F1C53300049192E /* JsonPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988606BE37FE360E9FF30F5E /* JsonPath.swift */; };
-		0038876D1F1C53300049192E /* JsonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988605067FDE0104E5F7B601 /* JsonError.swift */; };
-		0038876E1F1C53300049192E /* Json+Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988603E33114CE6DC9FDD654 /* Json+Number.swift */; };
-		0038876F1F1C53300049192E /* Json+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886016B96B47EEA40AFEE25 /* Json+Date.swift */; };
-		003887711F1C53300049192E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003089CE1F175A90009E067F /* Foundation.framework */; };
-		003887731F1C53300049192E /* SimpleJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 98860096DCF6C45F8FD498C6 /* SimpleJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0038877D1F1C53320049192E /* JsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860BDB0ADD25804FA1E7FC /* JsonTests.swift */; };
-		0038877F1F1C53320049192E /* SimpleJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003089B31F175A73009E067F /* SimpleJson.framework */; };
-		003887811F1C53320049192E /* Json.json in Resources */ = {isa = PBXBuildFile; fileRef = 9886033E6A4CA163BD8CA7F7 /* Json.json */; };
+		003887B01F1C649B0049192E /* SimpleJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003887A71F1C649B0049192E /* SimpleJson.framework */; };
+		003887CC1F1C65540049192E /* SimpleJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003887C31F1C65540049192E /* SimpleJson.framework */; };
+		003887E71F1C67320049192E /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860CE831C910A884B77563 /* Json.swift */; };
+		003887E81F1C67320049192E /* JsonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988605067FDE0104E5F7B601 /* JsonError.swift */; };
+		003887E91F1C67320049192E /* JsonPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988606BE37FE360E9FF30F5E /* JsonPath.swift */; };
+		003887EA1F1C67320049192E /* Json+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886016B96B47EEA40AFEE25 /* Json+Date.swift */; };
+		003887EB1F1C67320049192E /* Json+Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988603E33114CE6DC9FDD654 /* Json+Number.swift */; };
+		003887EC1F1C67320049192E /* Json+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860CE0E019090842A86771 /* Json+String.swift */; };
+		003887ED1F1C67330049192E /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860CE831C910A884B77563 /* Json.swift */; };
+		003887EE1F1C67330049192E /* JsonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988605067FDE0104E5F7B601 /* JsonError.swift */; };
+		003887EF1F1C67330049192E /* JsonPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988606BE37FE360E9FF30F5E /* JsonPath.swift */; };
+		003887F01F1C67330049192E /* Json+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886016B96B47EEA40AFEE25 /* Json+Date.swift */; };
+		003887F11F1C67330049192E /* Json+Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988603E33114CE6DC9FDD654 /* Json+Number.swift */; };
+		003887F21F1C67330049192E /* Json+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860CE0E019090842A86771 /* Json+String.swift */; };
+		003887F31F1C67330049192E /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860CE831C910A884B77563 /* Json.swift */; };
+		003887F41F1C67330049192E /* JsonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988605067FDE0104E5F7B601 /* JsonError.swift */; };
+		003887F51F1C67330049192E /* JsonPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988606BE37FE360E9FF30F5E /* JsonPath.swift */; };
+		003887F61F1C67330049192E /* Json+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886016B96B47EEA40AFEE25 /* Json+Date.swift */; };
+		003887F71F1C67330049192E /* Json+Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988603E33114CE6DC9FDD654 /* Json+Number.swift */; };
+		003887F81F1C67330049192E /* Json+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860CE0E019090842A86771 /* Json+String.swift */; };
+		003887F91F1C67390049192E /* SimpleJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 98860096DCF6C45F8FD498C6 /* SimpleJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		003887FA1F1C673A0049192E /* SimpleJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 98860096DCF6C45F8FD498C6 /* SimpleJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		003887FB1F1C673B0049192E /* SimpleJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 98860096DCF6C45F8FD498C6 /* SimpleJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		003887FC1F1C67510049192E /* JsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860BDB0ADD25804FA1E7FC /* JsonTests.swift */; };
+		003887FD1F1C67520049192E /* JsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860BDB0ADD25804FA1E7FC /* JsonTests.swift */; };
+		003887FE1F1C67550049192E /* Json.json in Resources */ = {isa = PBXBuildFile; fileRef = 9886033E6A4CA163BD8CA7F7 /* Json.json */; };
+		003887FF1F1C67550049192E /* Json.json in Resources */ = {isa = PBXBuildFile; fileRef = 9886033E6A4CA163BD8CA7F7 /* Json.json */; };
 		98860326566E600D3D165B1D /* JsonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988605067FDE0104E5F7B601 /* JsonError.swift */; };
 		988603514E4CBE1E170919FE /* JsonPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988606BE37FE360E9FF30F5E /* JsonPath.swift */; };
 		988603F41481C5D0E8D136C2 /* Json+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886016B96B47EEA40AFEE25 /* Json+Date.swift */; };
@@ -61,26 +55,19 @@
 			remoteGlobalIDString = 003089B21F175A73009E067F;
 			remoteInfo = SimpleJson;
 		};
-		0038873E1F1C52890049192E /* PBXContainerItemProxy */ = {
+		003887B11F1C649B0049192E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 003089AA1F175A73009E067F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 003089B21F175A73009E067F;
-			remoteInfo = SimpleJson;
+			remoteGlobalIDString = 003887A61F1C649B0049192E;
+			remoteInfo = "SimpleJson tvOS";
 		};
-		0038875D1F1C530C0049192E /* PBXContainerItemProxy */ = {
+		003887CD1F1C65540049192E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 003089AA1F175A73009E067F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 003089B21F175A73009E067F;
-			remoteInfo = SimpleJson;
-		};
-		0038877B1F1C53320049192E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 003089AA1F175A73009E067F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 003089B21F175A73009E067F;
-			remoteInfo = SimpleJson;
+			remoteGlobalIDString = 003887C21F1C65540049192E;
+			remoteInfo = "SimpleJson macOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -88,12 +75,11 @@
 		003089B31F175A73009E067F /* SimpleJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		003089BC1F175A73009E067F /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		003089CE1F175A90009E067F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0038873A1F1C52850049192E /* SimpleJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		003887481F1C52890049192E /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0038875A1F1C53090049192E /* SimpleJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		003887671F1C530C0049192E /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		003887781F1C53300049192E /* SimpleJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		003887851F1C53320049192E /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		003887A71F1C649B0049192E /* SimpleJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		003887AF1F1C649B0049192E /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		003887C31F1C65540049192E /* SimpleJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		003887CB1F1C65540049192E /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		003887DF1F1C656C0049192E /* SimpleJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98860096DCF6C45F8FD498C6 /* SimpleJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleJson.h; sourceTree = "<group>"; };
 		9886016B96B47EEA40AFEE25 /* Json+Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Json+Date.swift"; sourceTree = "<group>"; };
 		988601AAE77661AF2BC6A12B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -124,51 +110,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		003887321F1C52850049192E /* Frameworks */ = {
+		003887A31F1C649B0049192E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003887331F1C52850049192E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		003887411F1C52890049192E /* Frameworks */ = {
+		003887AC1F1C649B0049192E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003887421F1C52890049192E /* SimpleJson.framework in Frameworks */,
+				003887B01F1C649B0049192E /* SimpleJson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		003887521F1C53090049192E /* Frameworks */ = {
+		003887BF1F1C65540049192E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003887531F1C53090049192E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		003887601F1C530C0049192E /* Frameworks */ = {
+		003887C81F1C65540049192E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003887611F1C530C0049192E /* SimpleJson.framework in Frameworks */,
+				003887CC1F1C65540049192E /* SimpleJson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		003887701F1C53300049192E /* Frameworks */ = {
+		003887DB1F1C656C0049192E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003887711F1C53300049192E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0038877E1F1C53320049192E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0038877F1F1C53320049192E /* SimpleJson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,12 +165,11 @@
 			children = (
 				003089B31F175A73009E067F /* SimpleJson.framework */,
 				003089BC1F175A73009E067F /* Tests.xctest */,
-				0038873A1F1C52850049192E /* SimpleJson.framework */,
-				003887481F1C52890049192E /* Tests.xctest */,
-				0038875A1F1C53090049192E /* SimpleJson.framework */,
-				003887671F1C530C0049192E /* Tests.xctest */,
-				003887781F1C53300049192E /* SimpleJson.framework */,
-				003887851F1C53320049192E /* Tests.xctest */,
+				003887A71F1C649B0049192E /* SimpleJson.framework */,
+				003887AF1F1C649B0049192E /* Tests.xctest */,
+				003887C31F1C65540049192E /* SimpleJson.framework */,
+				003887CB1F1C65540049192E /* Tests.xctest */,
+				003887DF1F1C656C0049192E /* SimpleJson.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -276,27 +250,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		003887341F1C52850049192E /* Headers */ = {
+		003887A41F1C649B0049192E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003887351F1C52850049192E /* SimpleJson.h in Headers */,
+				003887F91F1C67390049192E /* SimpleJson.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		003887541F1C53090049192E /* Headers */ = {
+		003887C01F1C65540049192E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003887551F1C53090049192E /* SimpleJson.h in Headers */,
+				003887FA1F1C673A0049192E /* SimpleJson.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		003887721F1C53300049192E /* Headers */ = {
+		003887DC1F1C656C0049192E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003887731F1C53300049192E /* SimpleJson.h in Headers */,
+				003887FB1F1C673B0049192E /* SimpleJson.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,113 +313,95 @@
 			productReference = 003089BC1F175A73009E067F /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0038872A1F1C52850049192E /* SimpleJson tvOS */ = {
+		003887A61F1C649B0049192E /* SimpleJson tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 003887371F1C52850049192E /* Build configuration list for PBXNativeTarget "SimpleJson tvOS" */;
+			buildConfigurationList = 003887B81F1C649B0049192E /* Build configuration list for PBXNativeTarget "SimpleJson tvOS" */;
 			buildPhases = (
-				0038872B1F1C52850049192E /* Sources */,
-				003887321F1C52850049192E /* Frameworks */,
-				003887341F1C52850049192E /* Headers */,
-				003887361F1C52850049192E /* Resources */,
+				003887A21F1C649B0049192E /* Sources */,
+				003887A31F1C649B0049192E /* Frameworks */,
+				003887A41F1C649B0049192E /* Headers */,
+				003887A51F1C649B0049192E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "SimpleJson tvOS";
-			productName = SimpleJson;
-			productReference = 0038873A1F1C52850049192E /* SimpleJson.framework */;
+			productName = "SimpleJson tvOS";
+			productReference = 003887A71F1C649B0049192E /* SimpleJson.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0038873C1F1C52890049192E /* Tests tvOS */ = {
+		003887AE1F1C649B0049192E /* Tests tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 003887451F1C52890049192E /* Build configuration list for PBXNativeTarget "Tests tvOS" */;
+			buildConfigurationList = 003887BB1F1C649B0049192E /* Build configuration list for PBXNativeTarget "Tests tvOS" */;
 			buildPhases = (
-				0038873F1F1C52890049192E /* Sources */,
-				003887411F1C52890049192E /* Frameworks */,
-				003887431F1C52890049192E /* Resources */,
+				003887AB1F1C649B0049192E /* Sources */,
+				003887AC1F1C649B0049192E /* Frameworks */,
+				003887AD1F1C649B0049192E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0038873D1F1C52890049192E /* PBXTargetDependency */,
+				003887B21F1C649B0049192E /* PBXTargetDependency */,
 			);
 			name = "Tests tvOS";
-			productName = SimpleJsonTests;
-			productReference = 003887481F1C52890049192E /* Tests.xctest */;
+			productName = "SimpleJson tvOSTests";
+			productReference = 003887AF1F1C649B0049192E /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0038874A1F1C53090049192E /* SimpleJson macOS */ = {
+		003887C21F1C65540049192E /* SimpleJson macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 003887571F1C53090049192E /* Build configuration list for PBXNativeTarget "SimpleJson macOS" */;
+			buildConfigurationList = 003887D41F1C65540049192E /* Build configuration list for PBXNativeTarget "SimpleJson macOS" */;
 			buildPhases = (
-				0038874B1F1C53090049192E /* Sources */,
-				003887521F1C53090049192E /* Frameworks */,
-				003887541F1C53090049192E /* Headers */,
-				003887561F1C53090049192E /* Resources */,
+				003887BE1F1C65540049192E /* Sources */,
+				003887BF1F1C65540049192E /* Frameworks */,
+				003887C01F1C65540049192E /* Headers */,
+				003887C11F1C65540049192E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "SimpleJson macOS";
-			productName = SimpleJson;
-			productReference = 0038875A1F1C53090049192E /* SimpleJson.framework */;
+			productName = "SimpleJson macOS";
+			productReference = 003887C31F1C65540049192E /* SimpleJson.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0038875B1F1C530C0049192E /* Tests macOS */ = {
+		003887CA1F1C65540049192E /* Tests macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 003887641F1C530C0049192E /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildConfigurationList = 003887D71F1C65540049192E /* Build configuration list for PBXNativeTarget "Tests macOS" */;
 			buildPhases = (
-				0038875E1F1C530C0049192E /* Sources */,
-				003887601F1C530C0049192E /* Frameworks */,
-				003887621F1C530C0049192E /* Resources */,
+				003887C71F1C65540049192E /* Sources */,
+				003887C81F1C65540049192E /* Frameworks */,
+				003887C91F1C65540049192E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0038875C1F1C530C0049192E /* PBXTargetDependency */,
+				003887CE1F1C65540049192E /* PBXTargetDependency */,
 			);
 			name = "Tests macOS";
-			productName = SimpleJsonTests;
-			productReference = 003887671F1C530C0049192E /* Tests.xctest */;
+			productName = "SimpleJson macOSTests";
+			productReference = 003887CB1F1C65540049192E /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		003887681F1C53300049192E /* SimpleJson watchOS */ = {
+		003887DE1F1C656C0049192E /* SimpleJson watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 003887751F1C53300049192E /* Build configuration list for PBXNativeTarget "SimpleJson watchOS" */;
+			buildConfigurationList = 003887E41F1C656C0049192E /* Build configuration list for PBXNativeTarget "SimpleJson watchOS" */;
 			buildPhases = (
-				003887691F1C53300049192E /* Sources */,
-				003887701F1C53300049192E /* Frameworks */,
-				003887721F1C53300049192E /* Headers */,
-				003887741F1C53300049192E /* Resources */,
+				003887DA1F1C656C0049192E /* Sources */,
+				003887DB1F1C656C0049192E /* Frameworks */,
+				003887DC1F1C656C0049192E /* Headers */,
+				003887DD1F1C656C0049192E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "SimpleJson watchOS";
-			productName = SimpleJson;
-			productReference = 003887781F1C53300049192E /* SimpleJson.framework */;
+			productName = "SimpleJson watchOS";
+			productReference = 003887DF1F1C656C0049192E /* SimpleJson.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		003887791F1C53320049192E /* Tests watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 003887821F1C53320049192E /* Build configuration list for PBXNativeTarget "Tests watchOS" */;
-			buildPhases = (
-				0038877C1F1C53320049192E /* Sources */,
-				0038877E1F1C53320049192E /* Frameworks */,
-				003887801F1C53320049192E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0038877A1F1C53320049192E /* PBXTargetDependency */,
-			);
-			name = "Tests watchOS";
-			productName = SimpleJsonTests;
-			productReference = 003887851F1C53320049192E /* Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -465,6 +421,26 @@
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Manual;
 					};
+					003887A61F1C649B0049192E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					003887AE1F1C649B0049192E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					003887C21F1C65540049192E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					003887CA1F1C65540049192E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					003887DE1F1C656C0049192E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 003089AD1F175A73009E067F /* Build configuration list for PBXProject "SimpleJson" */;
@@ -481,12 +457,11 @@
 			targets = (
 				003089B21F175A73009E067F /* SimpleJson iOS */,
 				003089BB1F175A73009E067F /* Tests iOS */,
-				0038872A1F1C52850049192E /* SimpleJson tvOS */,
-				0038873C1F1C52890049192E /* Tests tvOS */,
-				0038874A1F1C53090049192E /* SimpleJson macOS */,
-				0038875B1F1C530C0049192E /* Tests macOS */,
-				003887681F1C53300049192E /* SimpleJson watchOS */,
-				003887791F1C53320049192E /* Tests watchOS */,
+				003887A61F1C649B0049192E /* SimpleJson tvOS */,
+				003887AE1F1C649B0049192E /* Tests tvOS */,
+				003887C21F1C65540049192E /* SimpleJson macOS */,
+				003887CA1F1C65540049192E /* Tests macOS */,
+				003887DE1F1C656C0049192E /* SimpleJson watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -507,48 +482,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		003887361F1C52850049192E /* Resources */ = {
+		003887A51F1C649B0049192E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		003887431F1C52890049192E /* Resources */ = {
+		003887AD1F1C649B0049192E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003887441F1C52890049192E /* Json.json in Resources */,
+				003887FE1F1C67550049192E /* Json.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		003887561F1C53090049192E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		003887621F1C530C0049192E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				003887631F1C530C0049192E /* Json.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		003887741F1C53300049192E /* Resources */ = {
+		003887C11F1C65540049192E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		003887801F1C53320049192E /* Resources */ = {
+		003887C91F1C65540049192E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003887811F1C53320049192E /* Json.json in Resources */,
+				003887FF1F1C67550049192E /* Json.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003887DD1F1C656C0049192E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,66 +543,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0038872B1F1C52850049192E /* Sources */ = {
+		003887A21F1C649B0049192E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0038872C1F1C52850049192E /* Json+String.swift in Sources */,
-				0038872D1F1C52850049192E /* Json.swift in Sources */,
-				0038872E1F1C52850049192E /* JsonPath.swift in Sources */,
-				0038872F1F1C52850049192E /* JsonError.swift in Sources */,
-				003887301F1C52850049192E /* Json+Number.swift in Sources */,
-				003887311F1C52850049192E /* Json+Date.swift in Sources */,
+				003887EC1F1C67320049192E /* Json+String.swift in Sources */,
+				003887E91F1C67320049192E /* JsonPath.swift in Sources */,
+				003887EB1F1C67320049192E /* Json+Number.swift in Sources */,
+				003887EA1F1C67320049192E /* Json+Date.swift in Sources */,
+				003887E81F1C67320049192E /* JsonError.swift in Sources */,
+				003887E71F1C67320049192E /* Json.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0038873F1F1C52890049192E /* Sources */ = {
+		003887AB1F1C649B0049192E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003887401F1C52890049192E /* JsonTests.swift in Sources */,
+				003887FC1F1C67510049192E /* JsonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0038874B1F1C53090049192E /* Sources */ = {
+		003887BE1F1C65540049192E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0038874C1F1C53090049192E /* Json+String.swift in Sources */,
-				0038874D1F1C53090049192E /* Json.swift in Sources */,
-				0038874E1F1C53090049192E /* JsonPath.swift in Sources */,
-				0038874F1F1C53090049192E /* JsonError.swift in Sources */,
-				003887501F1C53090049192E /* Json+Number.swift in Sources */,
-				003887511F1C53090049192E /* Json+Date.swift in Sources */,
+				003887F21F1C67330049192E /* Json+String.swift in Sources */,
+				003887EF1F1C67330049192E /* JsonPath.swift in Sources */,
+				003887F11F1C67330049192E /* Json+Number.swift in Sources */,
+				003887F01F1C67330049192E /* Json+Date.swift in Sources */,
+				003887EE1F1C67330049192E /* JsonError.swift in Sources */,
+				003887ED1F1C67330049192E /* Json.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0038875E1F1C530C0049192E /* Sources */ = {
+		003887C71F1C65540049192E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0038875F1F1C530C0049192E /* JsonTests.swift in Sources */,
+				003887FD1F1C67520049192E /* JsonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		003887691F1C53300049192E /* Sources */ = {
+		003887DA1F1C656C0049192E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0038876A1F1C53300049192E /* Json+String.swift in Sources */,
-				0038876B1F1C53300049192E /* Json.swift in Sources */,
-				0038876C1F1C53300049192E /* JsonPath.swift in Sources */,
-				0038876D1F1C53300049192E /* JsonError.swift in Sources */,
-				0038876E1F1C53300049192E /* Json+Number.swift in Sources */,
-				0038876F1F1C53300049192E /* Json+Date.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0038877C1F1C53320049192E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0038877D1F1C53320049192E /* JsonTests.swift in Sources */,
+				003887F81F1C67330049192E /* Json+String.swift in Sources */,
+				003887F51F1C67330049192E /* JsonPath.swift in Sources */,
+				003887F71F1C67330049192E /* Json+Number.swift in Sources */,
+				003887F61F1C67330049192E /* Json+Date.swift in Sources */,
+				003887F41F1C67330049192E /* JsonError.swift in Sources */,
+				003887F31F1C67330049192E /* Json.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,20 +606,15 @@
 			target = 003089B21F175A73009E067F /* SimpleJson iOS */;
 			targetProxy = 003089BE1F175A73009E067F /* PBXContainerItemProxy */;
 		};
-		0038873D1F1C52890049192E /* PBXTargetDependency */ = {
+		003887B21F1C649B0049192E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 003089B21F175A73009E067F /* SimpleJson iOS */;
-			targetProxy = 0038873E1F1C52890049192E /* PBXContainerItemProxy */;
+			target = 003887A61F1C649B0049192E /* SimpleJson tvOS */;
+			targetProxy = 003887B11F1C649B0049192E /* PBXContainerItemProxy */;
 		};
-		0038875C1F1C530C0049192E /* PBXTargetDependency */ = {
+		003887CE1F1C65540049192E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 003089B21F175A73009E067F /* SimpleJson iOS */;
-			targetProxy = 0038875D1F1C530C0049192E /* PBXContainerItemProxy */;
-		};
-		0038877A1F1C53320049192E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 003089B21F175A73009E067F /* SimpleJson iOS */;
-			targetProxy = 0038877B1F1C53320049192E /* PBXContainerItemProxy */;
+			target = 003887C21F1C65540049192E /* SimpleJson macOS */;
+			targetProxy = 003887CD1F1C65540049192E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -707,13 +661,16 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -739,7 +696,6 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -753,12 +709,15 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -769,7 +728,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json";
@@ -787,7 +746,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json";
@@ -822,7 +781,7 @@
 			};
 			name = Release;
 		};
-		003887381F1C52850049192E /* Debug */ = {
+		003887B91F1C649B0049192E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -830,7 +789,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json";
@@ -838,18 +797,21 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
-		003887391F1C52850049192E /* Release */ = {
+		003887BA1F1C649B0049192E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json";
@@ -857,12 +819,15 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
-		003887461F1C52890049192E /* Debug */ = {
+		003887BC1F1C649B0049192E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -870,32 +835,40 @@
 				PRODUCT_NAME = Tests;
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Debug;
 		};
-		003887471F1C52890049192E /* Release */ = {
+		003887BD1F1C649B0049192E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json-tests";
 				PRODUCT_NAME = Tests;
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Release;
 		};
-		003887581F1C53090049192E /* Debug */ = {
+		003887D51F1C65540049192E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json";
 				PRODUCT_NAME = SimpleJson;
 				SDKROOT = macosx;
@@ -904,16 +877,21 @@
 			};
 			name = Debug;
 		};
-		003887591F1C53090049192E /* Release */ = {
+		003887D61F1C65540049192E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json";
 				PRODUCT_NAME = SimpleJson;
 				SDKROOT = macosx;
@@ -922,11 +900,15 @@
 			};
 			name = Release;
 		};
-		003887651F1C530C0049192E /* Debug */ = {
+		003887D81F1C65540049192E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json-tests";
 				PRODUCT_NAME = Tests;
 				SDKROOT = macosx;
@@ -934,11 +916,16 @@
 			};
 			name = Debug;
 		};
-		003887661F1C530C0049192E /* Release */ = {
+		003887D91F1C65540049192E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json-tests";
 				PRODUCT_NAME = Tests;
 				SDKROOT = macosx;
@@ -946,15 +933,16 @@
 			};
 			name = Release;
 		};
-		003887761F1C53300049192E /* Debug */ = {
+		003887E51F1C656C0049192E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json";
@@ -962,18 +950,22 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		003887771F1C53300049192E /* Release */ = {
+		003887E61F1C656C0049192E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json";
@@ -981,32 +973,8 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		003887831F1C53320049192E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json-tests";
-				PRODUCT_NAME = Tests;
-				SDKROOT = watchos;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		003887841F1C53320049192E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json-tests";
-				PRODUCT_NAME = Tests;
-				SDKROOT = watchos;
-				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -1040,59 +1008,45 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		003887371F1C52850049192E /* Build configuration list for PBXNativeTarget "SimpleJson tvOS" */ = {
+		003887B81F1C649B0049192E /* Build configuration list for PBXNativeTarget "SimpleJson tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				003887381F1C52850049192E /* Debug */,
-				003887391F1C52850049192E /* Release */,
+				003887B91F1C649B0049192E /* Debug */,
+				003887BA1F1C649B0049192E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		003887451F1C52890049192E /* Build configuration list for PBXNativeTarget "Tests tvOS" */ = {
+		003887BB1F1C649B0049192E /* Build configuration list for PBXNativeTarget "Tests tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				003887461F1C52890049192E /* Debug */,
-				003887471F1C52890049192E /* Release */,
+				003887BC1F1C649B0049192E /* Debug */,
+				003887BD1F1C649B0049192E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		003887571F1C53090049192E /* Build configuration list for PBXNativeTarget "SimpleJson macOS" */ = {
+		003887D41F1C65540049192E /* Build configuration list for PBXNativeTarget "SimpleJson macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				003887581F1C53090049192E /* Debug */,
-				003887591F1C53090049192E /* Release */,
+				003887D51F1C65540049192E /* Debug */,
+				003887D61F1C65540049192E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		003887641F1C530C0049192E /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+		003887D71F1C65540049192E /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				003887651F1C530C0049192E /* Debug */,
-				003887661F1C530C0049192E /* Release */,
+				003887D81F1C65540049192E /* Debug */,
+				003887D91F1C65540049192E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		003887751F1C53300049192E /* Build configuration list for PBXNativeTarget "SimpleJson watchOS" */ = {
+		003887E41F1C656C0049192E /* Build configuration list for PBXNativeTarget "SimpleJson watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				003887761F1C53300049192E /* Debug */,
-				003887771F1C53300049192E /* Release */,
+				003887E51F1C656C0049192E /* Debug */,
+				003887E61F1C656C0049192E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		003887821F1C53320049192E /* Build configuration list for PBXNativeTarget "Tests watchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				003887831F1C53320049192E /* Debug */,
-				003887841F1C53320049192E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

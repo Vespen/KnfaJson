@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0038874A1F1C53090049192E"
+               BlueprintIdentifier = "003887C21F1C65540049192E"
                BuildableName = "SimpleJson.framework"
                BlueprintName = "SimpleJson macOS"
-               ReferencedContainer = "container:SimpleJson.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0038875B1F1C530C0049192E"
-               BuildableName = "Tests.xctest"
-               BlueprintName = "Tests macOS"
                ReferencedContainer = "container:SimpleJson.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +32,8 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0038875B1F1C530C0049192E"
-               BuildableName = "Tests.xctest"
+               BlueprintIdentifier = "003887CA1F1C65540049192E"
+               BuildableName = "Tests macOS.xctest"
                BlueprintName = "Tests macOS"
                ReferencedContainer = "container:SimpleJson.xcodeproj">
             </BuildableReference>
@@ -56,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0038874A1F1C53090049192E"
+            BlueprintIdentifier = "003887C21F1C65540049192E"
             BuildableName = "SimpleJson macOS.framework"
             BlueprintName = "SimpleJson macOS"
             ReferencedContainer = "container:SimpleJson.xcodeproj">
@@ -78,7 +64,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0038874A1F1C53090049192E"
+            BlueprintIdentifier = "003887C21F1C65540049192E"
             BuildableName = "SimpleJson macOS.framework"
             BlueprintName = "SimpleJson macOS"
             ReferencedContainer = "container:SimpleJson.xcodeproj">
@@ -96,7 +82,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0038874A1F1C53090049192E"
+            BlueprintIdentifier = "003887C21F1C65540049192E"
             BuildableName = "SimpleJson macOS.framework"
             BlueprintName = "SimpleJson macOS"
             ReferencedContainer = "container:SimpleJson.xcodeproj">
