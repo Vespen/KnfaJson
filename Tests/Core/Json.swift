@@ -26,27 +26,5 @@ import XCTest
 import SimpleJson
 
 /// `Json` test case class.
-final class JsonTestCase: XCTestCase {
-
-    /// Returns test `Json` instance.
-    private var json: Json!
-
-    /// Test setup.
-    override func setUp() {
-        let bundle = Bundle(for: JsonTestCase.self)
-
-        guard let url = bundle.url(forResource: "Json", withExtension: "json") else {
-            fatalError("Cannot locate \"Json.json\" file.")
-        }
-
-        guard let data = try? Data(contentsOf: url) else {
-            fatalError("Cannot read \"Json.json\" file.")
-        }
-
-        guard let any = try? JSONSerialization.jsonObject(with: data) else {
-            fatalError("Cannot deserialize \"Json.json\" file.")
-        }
-
-        self.json = Json(root: any)
-    }
+final class JsonTestCase: BaseTestCase {
 }
