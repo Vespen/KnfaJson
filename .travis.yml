@@ -24,7 +24,8 @@ env:
       DESTINATION="OS=3.2,name=Apple Watch - 42mm"
 script:
   - if [ $ACTION == "TEST" ]; then
-      xcodebuild -project SimpleJson.xcodeproj -scheme "$SCHEME" -destination "$DESTINATION" clean test | xcpretty;
+      xcodebuild -project SimpleJson.xcodeproj -scheme "$SCHEME" -destination "$DESTINATION" clean test;
     else
-      xcodebuild -project SimpleJson.xcodeproj -scheme "$SCHEME" -destination "$DESTINATION" clean build | xcpretty;
+      xcodebuild -project SimpleJson.xcodeproj -scheme "$SCHEME" -destination "$DESTINATION" clean build;
     fi
+  - bash <(curl -s https://codecov.io/bash)
