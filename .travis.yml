@@ -28,4 +28,4 @@ script:
     else
       xcodebuild -project SimpleJson.xcodeproj -scheme "$SCHEME" -destination "$DESTINATION" clean build;
     fi
-  - bash <(curl -s https://codecov.io/bash) -J "SimpleJson"
+  - bash <(curl -s https://codecov.io/bash)
