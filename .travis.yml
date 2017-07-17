@@ -10,14 +10,21 @@ env:
     - MACOS_SCHEME="SimpleJson macOS"
     - WATCHOS_SCHEME="SimpleJson watchOS"
   matrix:
-    - SCHEME="$IOS_SCHEME" 
+    - ACTION="TEST"
+      SCHEME="$IOS_SCHEME"
       DESTINATION="OS=10.3.1,name=iPhone 6s"
-    - SCHEME="$TVOS_SCHEME" 
+    - ACTION="TEST"
+      SCHEME="$TVOS_SCHEME"
       DESTINATION="OS=10.2,name=Apple TV 1080p"
-    - SCHEME="$MACOS_SCHEME" 
+    - ACTION="TEST"
+      SCHEME="$MACOS_SCHEME"
       DESTINATION="arch=x86_64"
-    - SCHEME="$WATCHOS_SCHEME" 
+    - ACTION="BUILD"
+      SCHEME="$WATCHOS_SCHEME"
       DESTINATION="OS=3.2,name=Apple Watch - 42mm"
 script:
-  - xcodebuild -project SimpleJson.xcodeproj -scheme "$SCHEME" -destination "$DESTINATION" clean test | xcpretty;
-  
+  - if [ $ACTION == "TEST" ]; then
+      xcodebuild -project SimpleJson.xcodeproj -scheme "$SCHEME" -destination "$DESTINATION" clean test | xcpretty;
+    else
+      xcodebuild -project SimpleJson.xcodeproj -scheme "$SCHEME" -destination "$DESTINATION" clean build | xcpretty;
+    fi
