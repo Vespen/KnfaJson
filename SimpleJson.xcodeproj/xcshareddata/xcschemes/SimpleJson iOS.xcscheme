@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "003089B21F175A73009E067F"
                BuildableName = "SimpleJson.framework"
-               BlueprintName = "SimpleJson"
+               BlueprintName = "SimpleJson iOS"
                ReferencedContainer = "container:SimpleJson.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,7 +34,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "003089BB1F175A73009E067F"
                BuildableName = "Tests.xctest"
-               BlueprintName = "Tests"
+               BlueprintName = "Tests iOS"
                ReferencedContainer = "container:SimpleJson.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -44,7 +44,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "003089B21F175A73009E067F"
             BuildableName = "SimpleJson.framework"
-            BlueprintName = "SimpleJson"
+            BlueprintName = "SimpleJson iOS"
             ReferencedContainer = "container:SimpleJson.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,7 +66,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "003089B21F175A73009E067F"
             BuildableName = "SimpleJson.framework"
-            BlueprintName = "SimpleJson"
+            BlueprintName = "SimpleJson iOS"
             ReferencedContainer = "container:SimpleJson.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -84,7 +84,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "003089B21F175A73009E067F"
             BuildableName = "SimpleJson.framework"
-            BlueprintName = "SimpleJson"
+            BlueprintName = "SimpleJson iOS"
             ReferencedContainer = "container:SimpleJson.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
