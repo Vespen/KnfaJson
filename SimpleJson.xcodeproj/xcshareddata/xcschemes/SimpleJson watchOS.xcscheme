@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "003887DE1F1C656C0049192E"
-            BuildableName = "SimpleJson watchOS.framework"
+            BuildableName = "SimpleJson.framework"
             BlueprintName = "SimpleJson watchOS"
             ReferencedContainer = "container:SimpleJson.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "003887DE1F1C656C0049192E"
-            BuildableName = "SimpleJson watchOS.framework"
+            BuildableName = "SimpleJson.framework"
             BlueprintName = "SimpleJson watchOS"
             ReferencedContainer = "container:SimpleJson.xcodeproj">
          </BuildableReference>

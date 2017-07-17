@@ -59,7 +59,7 @@ public final class Json {
     ///     - root: Underlying instance.
     ///     - parent: Parent instance.
     ///     - relativePath: Relative path.
-    public init(root: Any, parent: Json? = nil, relativePath: JsonPath = []) {
+    public init(root: Any, parent: Json? = nil, relativePath: JsonPath = JsonPath()) {
         self.root = root
         self.parent = parent
         self.relativePath = relativePath
@@ -126,7 +126,7 @@ public final class Json {
         var result: [Json] = []
 
         for (index, item) in array.enumerated() {
-            result.append(Json(root: item, parent: self, relativePath: path.appending(index: index)))
+            result.append(Json(root: item, parent: self, relativePath: path.appending(JsonPath(index: index))))
         }
 
         return result

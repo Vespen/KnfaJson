@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "003887CA1F1C65540049192E"
-               BuildableName = "Tests macOS.xctest"
+               BuildableName = "Tests.xctest"
                BlueprintName = "Tests macOS"
                ReferencedContainer = "container:SimpleJson.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "003887C21F1C65540049192E"
-            BuildableName = "SimpleJson macOS.framework"
+            BuildableName = "SimpleJson.framework"
             BlueprintName = "SimpleJson macOS"
             ReferencedContainer = "container:SimpleJson.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "003887C21F1C65540049192E"
-            BuildableName = "SimpleJson macOS.framework"
+            BuildableName = "SimpleJson.framework"
             BlueprintName = "SimpleJson macOS"
             ReferencedContainer = "container:SimpleJson.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "003887C21F1C65540049192E"
-            BuildableName = "SimpleJson macOS.framework"
+            BuildableName = "SimpleJson.framework"
             BlueprintName = "SimpleJson macOS"
             ReferencedContainer = "container:SimpleJson.xcodeproj">
          </BuildableReference>

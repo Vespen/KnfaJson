@@ -25,11 +25,11 @@
 import Foundation
 
 /// `JsonPath` class.
-public class JsonPath: ExpressibleByStringLiteral, ExpressibleByIntegerLiteral, ExpressibleByArrayLiteral {
+public class JsonPath {
 
-    /// Path component separator.
+    /// String path component separator.
     ///
-    /// Path components **must** be separated by that separator.
+    /// String path components **must** be separated by that separator.
     public static let separator = "."
 
     /// Returns path components.
@@ -37,9 +37,33 @@ public class JsonPath: ExpressibleByStringLiteral, ExpressibleByIntegerLiteral, 
 
     /// Creates a `JsonPath` instance.
     ///
+    /// Each path component **must** identify underlying object's property.
+    ///
     /// - Parameter components: Path components.
     public init(components: [String]) {
         self.components = components
+    }
+
+    /// Creates an empty `JsonPath` instance.
+    public convenience init() {
+        self.init(components: [])
+    }
+
+    /// Creates a `JsonPath` instance.
+    ///
+    /// Path components of a given *string path* **must** be separated by
+    /// `JsonPath.separator`.
+    ///
+    /// - Parameter string: String path.
+    public convenience init(string: String) {
+        self.init(components: string.components(separatedBy: JsonPath.separator))
+    }
+
+    /// Creates a `JsonPath` instance.
+    ///
+    /// - Parameter index: Index.
+    public convenience init(index: Int) {
+        self.init(components: [String(index)])
     }
 
     /// Returns a new `JsonPath` made by appending path components of a given
@@ -51,15 +75,6 @@ public class JsonPath: ExpressibleByStringLiteral, ExpressibleByIntegerLiteral, 
         return JsonPath(components: components + path.components)
     }
 
-    /// Returns a new `JsonPath` made by appending single path component,
-    /// created from a given index, to the components of `self`.
-    ///
-    /// - Parameter index: Index.
-    /// - Returns: `JsonPath`.
-    public func appending(index: Int) -> JsonPath {
-        return JsonPath(components: components + [String(index)])
-    }
-
     /// Returns a new `JsonPath` containing path components of the `self` up
     /// to, but not including, the one at a given index.
     ///
@@ -67,29 +82,6 @@ public class JsonPath: ExpressibleByStringLiteral, ExpressibleByIntegerLiteral, 
     /// - Returns: `JsonPath`.
     public func subpath(to index: Int) -> JsonPath {
         return JsonPath(components: Array(components.prefix(index)))
-    }
-
-    // MARK: - ExpressibleByStringLiteral
-    public convenience required init(stringLiteral value: String) {
-        self.init(components: value.components(separatedBy: JsonPath.separator))
-    }
-
-    public convenience required init(extendedGraphemeClusterLiteral value: String) {
-        self.init(stringLiteral: value)
-    }
-
-    public convenience required init(unicodeScalarLiteral value: String) {
-        self.init(stringLiteral: value)
-    }
-
-    // MARK: - ExpressibleByIntegerLiteral
-    public convenience required init(integerLiteral value: Int) {
-        self.init(components: [String(value)])
-    }
-
-    // MARK: - ExpressibleByArrayLiteral
-    public convenience required init(arrayLiteral elements: String...) {
-        self.init(components: elements)
     }
 }
 

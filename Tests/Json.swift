@@ -1,5 +1,5 @@
 //
-//  JsonTests.swift
+//  Json.swift
 //
 //  Copyright (c) 2017 Anton Lagutin
 //
@@ -25,15 +25,15 @@
 import XCTest
 import SimpleJson
 
-/// `Json` tests class.
-final class JsonTests: XCTestCase {
+/// `Json` test case class.
+final class JsonTestCase: XCTestCase {
 
     /// Returns test `Json` instance.
     private var json: Json!
 
     /// Test setup.
     override func setUp() {
-        let bundle = Bundle(for: JsonTests.self)
+        let bundle = Bundle(for: JsonTestCase.self)
 
         guard let url = bundle.url(forResource: "Json", withExtension: "json") else {
             fatalError("Cannot locate \"Json.json\" file.")
