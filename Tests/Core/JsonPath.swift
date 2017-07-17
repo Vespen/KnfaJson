@@ -26,7 +26,7 @@ import XCTest
 import SimpleJson
 
 /// `JsonPath` test case class.
-class JsonPathTestCase: XCTestCase {
+final class JsonPathTestCase: XCTestCase {
 
     /// Tests `init()`.
     public func testInit() {
