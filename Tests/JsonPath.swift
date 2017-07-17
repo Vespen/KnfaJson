@@ -112,7 +112,7 @@ class JsonPathTestCase: XCTestCase {
         let components = [
                 "response",
                 "items",
-                "0",
+                "42",
                 "name"
         ]
 
