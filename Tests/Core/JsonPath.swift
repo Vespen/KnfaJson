@@ -126,4 +126,20 @@ final class JsonPathTestCase: XCTestCase {
             )
         }
     }
+
+    /// Tests `==(lhs:rhs:)`.
+    public func testEquals() {
+        let components = [
+                "response",
+                "items",
+                "42",
+                "name"
+        ]
+
+        let string = "response.items.42.name"
+
+        XCTAssert(JsonPath(components: components) == JsonPath(string: string),
+                "Json paths must be equal."
+        )
+    }
 }

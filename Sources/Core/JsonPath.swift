@@ -85,7 +85,15 @@ public class JsonPath {
     }
 }
 
-/// `CustomStringConvertible` extension for `JsonPath`.
+/// `Equatable` extension of `JsonPath`.
+extension JsonPath: Equatable {
+
+    public static func ==(lhs: JsonPath, rhs: JsonPath) -> Bool {
+        return lhs.components == rhs.components
+    }
+}
+
+/// `CustomStringConvertible` extension of `JsonPath`.
 extension JsonPath: CustomStringConvertible {
 
     public var description: String {
