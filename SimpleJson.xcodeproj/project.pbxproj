@@ -38,8 +38,10 @@
 		988603514E4CBE1E170919FE /* JsonPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988606BE37FE360E9FF30F5E /* JsonPath.swift */; };
 		988603F41481C5D0E8D136C2 /* Json+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886016B96B47EEA40AFEE25 /* Json+Date.swift */; };
 		9886045D4CA26782E440B413 /* Json+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860DA6AE89114D66B70125 /* Json+Date.swift */; };
+		98860522FE6F318BAB1C87A5 /* Json+Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860DDF23D376F5B049942B /* Json+Number.swift */; };
 		98860582726FBF5D4E766A2A /* Json+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860DA6AE89114D66B70125 /* Json+Date.swift */; };
 		9886062340F486EAB6D1D3BF /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988608FDD1F66C45401CF344 /* Json.swift */; };
+		9886065BDB470B8BE599D17D /* Json+Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860DDF23D376F5B049942B /* Json+Number.swift */; };
 		9886069B094B77AA2F101AA1 /* JsonPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860FEEF76AF8B571BD4029 /* JsonPath.swift */; };
 		988606B2175A794C07EE5207 /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860CE831C910A884B77563 /* Json.swift */; };
 		988607DAF9C3F46AE49760F0 /* Json.json in Resources */ = {isa = PBXBuildFile; fileRef = 98860EA72393107A3362043C /* Json.json */; };
@@ -55,6 +57,7 @@
 		98860EA95F585DCAE26551EE /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988603C417621B00EC847DEF /* BaseTestCase.swift */; };
 		98860EC04ABE245B50CA8231 /* Json.json in Resources */ = {isa = PBXBuildFile; fileRef = 98860EA72393107A3362043C /* Json.json */; };
 		98860F53685E2B3378883B9B /* JsonPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860FEEF76AF8B571BD4029 /* JsonPath.swift */; };
+		98860F5A017AF03783A79EE0 /* Json+Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860DDF23D376F5B049942B /* Json+Number.swift */; };
 		98860F91A5E93CA614668ABC /* Json.json in Resources */ = {isa = PBXBuildFile; fileRef = 98860EA72393107A3362043C /* Json.json */; };
 		98860FC5B2364EDC12E6E7F6 /* Json+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988607462C1CBC5D7B9C192C /* Json+String.swift */; };
 /* End PBXBuildFile section */
@@ -105,6 +108,7 @@
 		98860CE0E019090842A86771 /* Json+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Json+String.swift"; sourceTree = "<group>"; };
 		98860CE831C910A884B77563 /* Json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
 		98860DA6AE89114D66B70125 /* Json+Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Json+Date.swift"; sourceTree = "<group>"; };
+		98860DDF23D376F5B049942B /* Json+Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Json+Number.swift"; sourceTree = "<group>"; };
 		98860EA72393107A3362043C /* Json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Json.json; sourceTree = "<group>"; };
 		98860FEEF76AF8B571BD4029 /* JsonPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonPath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -243,6 +247,7 @@
 			children = (
 				988607462C1CBC5D7B9C192C /* Json+String.swift */,
 				98860DA6AE89114D66B70125 /* Json+Date.swift */,
+				98860DDF23D376F5B049942B /* Json+Number.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -588,6 +593,7 @@
 				98860BD73C9A670B015650E5 /* BaseTestCase.swift in Sources */,
 				98860FC5B2364EDC12E6E7F6 /* Json+String.swift in Sources */,
 				98860582726FBF5D4E766A2A /* Json+Date.swift in Sources */,
+				9886065BDB470B8BE599D17D /* Json+Number.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +619,7 @@
 				98860EA95F585DCAE26551EE /* BaseTestCase.swift in Sources */,
 				98860B9360EB894FF3D196FF /* Json+String.swift in Sources */,
 				9886045D4CA26782E440B413 /* Json+Date.swift in Sources */,
+				98860522FE6F318BAB1C87A5 /* Json+Number.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,6 +645,7 @@
 				988600217F653351DFB1A953 /* BaseTestCase.swift in Sources */,
 				98860846843C1C0B7FFEBD8F /* Json+String.swift in Sources */,
 				98860CE2A2A9DABC886645E7 /* Json+Date.swift in Sources */,
+				98860F5A017AF03783A79EE0 /* Json+Number.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
