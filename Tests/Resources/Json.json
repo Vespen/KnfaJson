@@ -1,4 +1,30 @@
 [
   {
+    "id": "69107332-7152-45e1-8e50-6a7417c26f76",
+    "url": "http://www.latlong.net/place/new-york-city-ny-usa-1848.html",
+    "name": "New York City",
+    "favorite": true,
+    "location": [
+      40.730610,
+      -73.935242
+    ],
+    "population": 8537673,
+    "incorporated": "01.01.1898",
+    "incorporatedTs": -2272060800,
+    "incorporatedTsMs": -2272060800000
+  },
+  {
+    "id": "74c4f9a0-b7a0-477f-bf32-0be880d11b4b",
+    "url": "http://www.latlong.net/place/los-angeles-ca-usa-1531.html",
+    "name": "Los Angeles",
+    "favorite": false,
+    "location": [
+      34.052235,
+      -118.243683
+    ],
+    "population": 3976322,
+    "incorporated": "04.04.1850",
+    "incorporatedTs": -3778790400,
+    "incorporatedTsMs": -3778790400
   }
 ]
