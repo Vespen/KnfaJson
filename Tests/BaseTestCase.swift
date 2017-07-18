@@ -33,19 +33,11 @@ class BaseTestCase: XCTestCase {
 
     /// MARK: - XCTestCase
     override func setUp() {
-        let bundle = Bundle(for: BaseTestCase.self)
+        let url = Bundle(for: BaseTestCase.self)
+                .url(forResource: "Json", withExtension: ".json")!
 
-        guard let url = bundle.url(forResource: "Json", withExtension: "json") else {
-            fatalError("Cannot locate \"Json.json\" file.")
-        }
-
-        guard let data = try? Data(contentsOf: url) else {
-            fatalError("Cannot read \"Json.json\" file.")
-        }
-
-        guard let root = try? JSONSerialization.jsonObject(with: data) else {
-            fatalError("Cannot deserialize \"Json.json\" file.")
-        }
+        let data = try! Data(contentsOf: url)
+        let root = try! JSONSerialization.jsonObject(with: data)
 
         self.json = Json(root: root)
     }
