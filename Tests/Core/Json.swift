@@ -73,4 +73,30 @@ final class JsonTestCase: BaseTestCase {
 
         XCTAssertEqual(level2.absolutePath, path0.appending(path1).appending(path2))
     }
+
+    /// Tests `value(at:)`.
+    func testValueAt() throws {
+        // Array case check.
+        XCTAssertNoThrow(try json.value(at: 0))
+
+        if let object = try? json.value(at: 0) {
+            XCTAssert(object is [String: Any])
+        }
+
+        XCTAssertThrowsError(try json.value(at: -1))
+        XCTAssertThrowsError(try json.value(at: 99))
+        XCTAssertThrowsError(try json.value(at: "notAnIndex"))
+
+        // Dictionary case check.
+        XCTAssertNoThrow(try json.value(at: "0.location"))
+
+        if let array = try? json.value(at: "0.location") {
+            XCTAssert(array is [Any])
+        }
+
+        XCTAssertThrowsError(try json.value(at: "0.undefined"))
+
+        // Default case check.
+        XCTAssertThrowsError(try json.value(at: "0.location.0.key"))
+    }
 }
