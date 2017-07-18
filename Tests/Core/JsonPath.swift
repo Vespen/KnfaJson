@@ -29,106 +29,31 @@ import SimpleJson
 final class JsonPathTestCase: XCTestCase {
 
     /// Tests `init()`.
-    public func testInit() {
-        let emptyPath = JsonPath()
-
-        XCTAssertEqual(emptyPath.description, String(),
-                "Empty path description must be equal to empty string."
-        )
-
-        XCTAssertEqual(emptyPath.components.count, 0,
-                "Empty path components count must be equal to zero."
-        )
+    func testInit() {
+        XCTAssert(JsonPath().components.isEmpty)
     }
 
     /// Tests `init(string:)`.
-    public func testInitString() {
+    func testInitString() {
         let string = "response.items.42.name"
 
-        let path = JsonPath(string: string)
-
-        XCTAssertEqual(path.description, string,
-                "Path description must be equal to the source string."
-        )
+        XCTAssertEqual(JsonPath(string: string).components, string.components(separatedBy: JsonPath.separator))
     }
 
     /// Tests `init(index:)`.
-    public func testInitIndex() {
+    func testInitIndex() {
         let index = 42
+        let jsonPath = JsonPath(index: index)
 
-        let path = JsonPath(index: 42)
+        XCTAssertEqual(jsonPath.components.count, 1)
 
-        XCTAssertEqual(path.components.count, 1,
-                "Path components count must be equal to one."
-        )
-
-        XCTAssertEqual(path.components.first!, String(index),
-                "Path component must be equal to string with the index value."
-        )
-
-        XCTAssertEqual(path.description, String(index),
-                "Path description must be equal to string with the index value."
-        )
-    }
-
-    /// Tests `init(components:)`.
-    public func testInitComponents() {
-        let components = [
-                "response",
-                "items",
-                "42",
-                "name"
-        ]
-
-        let path = JsonPath(components: components)
-
-        XCTAssertEqual(path.components, components,
-                "Path components must be equal to the source components."
-        )
-
-        XCTAssertEqual(path.description, components.joined(separator: JsonPath.separator),
-                "Path description must be equal to the source components joined by `JsonPath.separator`."
-        )
-    }
-
-    /// Tests `appending(_:)`.
-    public func testAppending() {
-        let lhs = JsonPath(string: "response.items.0")
-        let rhs = JsonPath(string: "name")
-
-        let path = lhs.appending(rhs)
-
-        XCTAssertEqual(path.components, lhs.components + rhs.components,
-                "Path components must be equal to concatenated components of the source paths."
-        )
-
-        XCTAssertEqual(path.description, [lhs.description, rhs.description].joined(separator: JsonPath.separator),
-                "Path description must be equal to the source descriptions joined by `JsonPath.separator`."
-        )
-    }
-
-    /// Tests `subpath(to:)`.
-    public func testSubpath() {
-        let components = [
-                "response",
-                "items",
-                "42",
-                "name"
-        ]
-
-        let path = JsonPath(components: components)
-
-        for index in 0..<components.count + 1 {
-            let subpath = path.subpath(to: index)
-
-            XCTAssertEqual(subpath.components, Array(path.components.prefix(index)),
-                    "Subpath components must be equal to prefixed path components by the given index."
-            )
+        if let first = jsonPath.components.first {
+            XCTAssertEqual(first, String(index))
         }
     }
 
-    /// Tests `==(lhs:rhs:)`.
-    public func testEquals() {
+    /// Tests `init(components:)`.
+    func testInitComponents() {
         let components = [
                 "response",
                 "items",
@@ -136,10 +61,91 @@ final class JsonPathTestCase: XCTestCase {
                 "name"
         ]
 
+        XCTAssertEqual(JsonPath(components: components).components, components)
+    }
+
+    /// Tests `appending(_:)`.
+    func testAppending() {
+        let lhs = JsonPath(string: "response.items.0")
+        let rhs = JsonPath(string: "name")
+
+        XCTAssertEqual(lhs.appending(rhs).components, lhs.components + rhs.components)
+    }
+
+    /// Tests `subpath(to:)`.
+    func testSubpath() {
+        let components = [
+                "response",
+                "items",
+                "42",
+                "name"
+        ]
+
+        XCTAssertEqual(JsonPath(components: components).subpath(to: 2).components, Array(components.prefix(2)))
+    }
+
+    /// Tests `==(lhs:rhs:)`.
+    func testEquals() {
+        let components = [
+                "response",
+                "items",
+                "42",
+                "name"
+        ]
+
+        let string = components.joined(separator: JsonPath.separator)
+
+        XCTAssert(JsonPath(components: components) == JsonPath(string: string))
+    }
+
+    /// Tests `description`.
+    func testDescription() {
+        XCTAssertEqual(JsonPath().description, "")
+
+        let components = [
+                "response",
+                "items",
+                "42",
+                "name"
+        ]
+
+        XCTAssertEqual(JsonPath(components: components).description, components.joined(separator: JsonPath.separator))
+
         let string = "response.items.42.name"
 
-        XCTAssert(JsonPath(components: components) == JsonPath(string: string),
-                "Json paths must be equal."
-        )
+        XCTAssertEqual(JsonPath(string: string).description, string)
+
+        let index = 42
+
+        XCTAssertEqual(JsonPath(index: index).description, String(index))
+    }
+
+    /// Tests `init(stringLiteral:)`.
+    func testInitStringLiteral() {
+        XCTAssertEqual("response.items.42.name", JsonPath(string: "response.items.42.name"))
+    }
+
+    /// Tests `init(extendedGraphemeClusterLiteral:)`.
+    func testInitExtendedGraphemeClusterLiteral() {
+        let string = "response.items.42.name"
+
+        XCTAssertEqual(JsonPath(extendedGraphemeClusterLiteral: string), JsonPath(string: string))
+    }
+
+    /// Tests `init(unicodeScalarLiteral:)`.
+    func testInitUnicodeScalarLiteral() {
+        let string = "response.items.42.name"
+
+        XCTAssertEqual(JsonPath(unicodeScalarLiteral: string), JsonPath(string: string))
+    }
+
+    /// Tests `init(integerLiteral:)`.
+    func testInitIntegerLiteral() {
+        XCTAssertEqual(42, JsonPath(index: 42))
+    }
+
+    /// Tests `init(arrayLiteral:)`.
+    func testInitArrayLiteral() {
+        XCTAssertEqual(["response", "items", "42", "name"], JsonPath(components: ["response", "items", "42", "name"]))
     }
 }
