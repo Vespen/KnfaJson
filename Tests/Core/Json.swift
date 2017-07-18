@@ -99,4 +99,42 @@ final class JsonTestCase: BaseTestCase {
         // Default case check.
         XCTAssertThrowsError(try json.value(at: "0.location.0.key"))
     }
+
+    /// Tests `json(at:)`.
+    func testJsonAt() throws {
+        let jsonPath: JsonPath = "0.location.0"
+
+        XCTAssertNoThrow(try json.json(at: jsonPath))
+
+        if let json = try? json.json(at: jsonPath) {
+            XCTAssert(json.root is NSNumber)
+        }
+    }
+
+    /// Tests `array(at:)`.
+    func testArrayAt() throws {
+        let jsonPath: JsonPath = "0.location"
+
+        XCTAssertNoThrow(try json.array(at: jsonPath))
+
+        if let jsonArray = try? json.array(at: jsonPath) {
+            XCTAssertEqual(jsonArray.count, 2)
+
+            if let first = jsonArray.first, let last = jsonArray.last {
+                XCTAssert(first.root is NSNumber)
+
+                if let number = first.root as? NSNumber {
+                    XCTAssertEqualWithAccuracy(number.doubleValue, 40.730610, accuracy: 1e-6)
+                }
+
+                XCTAssert(last.root is NSNumber)
+
+                if let number = last.root as? NSNumber {
+                    XCTAssertEqualWithAccuracy(number.doubleValue, -73.935242, accuracy: 1e-6)
+                }
+            }
+        }
+
+        XCTAssertThrowsError(try json.array(at: "0.name"))
+    }
 }
