@@ -37,6 +37,8 @@
 		98860326566E600D3D165B1D /* JsonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988605067FDE0104E5F7B601 /* JsonError.swift */; };
 		988603514E4CBE1E170919FE /* JsonPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988606BE37FE360E9FF30F5E /* JsonPath.swift */; };
 		988603F41481C5D0E8D136C2 /* Json+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886016B96B47EEA40AFEE25 /* Json+Date.swift */; };
+		9886045D4CA26782E440B413 /* Json+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860DA6AE89114D66B70125 /* Json+Date.swift */; };
+		98860582726FBF5D4E766A2A /* Json+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860DA6AE89114D66B70125 /* Json+Date.swift */; };
 		9886062340F486EAB6D1D3BF /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988608FDD1F66C45401CF344 /* Json.swift */; };
 		9886069B094B77AA2F101AA1 /* JsonPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860FEEF76AF8B571BD4029 /* JsonPath.swift */; };
 		988606B2175A794C07EE5207 /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860CE831C910A884B77563 /* Json.swift */; };
@@ -47,6 +49,7 @@
 		98860ACF34EC0A80F75A0AA3 /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988608FDD1F66C45401CF344 /* Json.swift */; };
 		98860B9360EB894FF3D196FF /* Json+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988607462C1CBC5D7B9C192C /* Json+String.swift */; };
 		98860BD73C9A670B015650E5 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988603C417621B00EC847DEF /* BaseTestCase.swift */; };
+		98860CE2A2A9DABC886645E7 /* Json+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860DA6AE89114D66B70125 /* Json+Date.swift */; };
 		98860CE6047DEF576BAB5503 /* SimpleJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 98860096DCF6C45F8FD498C6 /* SimpleJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98860E7A991CF6BF8396E41D /* JsonPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860FEEF76AF8B571BD4029 /* JsonPath.swift */; };
 		98860EA95F585DCAE26551EE /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988603C417621B00EC847DEF /* BaseTestCase.swift */; };
@@ -101,6 +104,7 @@
 		988608FDD1F66C45401CF344 /* Json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
 		98860CE0E019090842A86771 /* Json+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Json+String.swift"; sourceTree = "<group>"; };
 		98860CE831C910A884B77563 /* Json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
+		98860DA6AE89114D66B70125 /* Json+Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Json+Date.swift"; sourceTree = "<group>"; };
 		98860EA72393107A3362043C /* Json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Json.json; sourceTree = "<group>"; };
 		98860FEEF76AF8B571BD4029 /* JsonPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonPath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -238,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				988607462C1CBC5D7B9C192C /* Json+String.swift */,
+				98860DA6AE89114D66B70125 /* Json+Date.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -582,6 +587,7 @@
 				98860E7A991CF6BF8396E41D /* JsonPath.swift in Sources */,
 				98860BD73C9A670B015650E5 /* BaseTestCase.swift in Sources */,
 				98860FC5B2364EDC12E6E7F6 /* Json+String.swift in Sources */,
+				98860582726FBF5D4E766A2A /* Json+Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +612,7 @@
 				98860F53685E2B3378883B9B /* JsonPath.swift in Sources */,
 				98860EA95F585DCAE26551EE /* BaseTestCase.swift in Sources */,
 				98860B9360EB894FF3D196FF /* Json+String.swift in Sources */,
+				9886045D4CA26782E440B413 /* Json+Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,6 +637,7 @@
 				9886069B094B77AA2F101AA1 /* JsonPath.swift in Sources */,
 				988600217F653351DFB1A953 /* BaseTestCase.swift in Sources */,
 				98860846843C1C0B7FFEBD8F /* Json+String.swift in Sources */,
+				98860CE2A2A9DABC886645E7 /* Json+Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
