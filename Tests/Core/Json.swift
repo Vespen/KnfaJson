@@ -28,100 +28,49 @@ import SimpleJson
 /// `Json` test case class.
 final class JsonTestCase: BaseTestCase {
 
-    /// Tests `root`.
-    func testRootString() {
-        let string = "string"
+    /// Tests `init(root:)`.
+    func testInitRoot() {
+        let json = Json(root: [])
 
-        let json = Json(root: string)
-
-        XCTAssert(json.root is String,
-                "Json root type must be equal to the source root type."
-        )
-
-        XCTAssert(json.root as! String == string,
-                "Json root instance must be equal to the source root instance."
-        )
+        XCTAssertNil(json.parent)
+        XCTAssert(json.relativePath.components.isEmpty)
     }
 
-    /// Tests `root`.
-    func testRootNumber() {
-        let number = NSNumber(value: 42)
+    /// Tests `init(root:parent:)`.
+    func testInitRootParent() {
+        let json = Json(root: [], parent: Json(root: []))
 
-        let json = Json(root: number)
-
-        XCTAssert(json.root is NSNumber,
-                "Json root type must be equal to the source root type."
-        )
-
-        XCTAssert(json.root as! NSNumber === number,
-                "Json root instance must be reference equal to the source root instance."
-        )
+        XCTAssertNotNil(json.parent)
+        XCTAssert(json.relativePath.components.isEmpty)
     }
 
-    /// Tests `root`.
-    func testRootObject() {
-        let object: [String: Any] = [:]
+    /// Tests `init(root:relativePath:)`.
+    func testInitRootRelativePath() {
+        let path = JsonPath(string: "response.items.42.name")
+        let json = Json(root: [], relativePath: path)
 
-        let json = Json(root: object)
-
-        XCTAssert(json.root is [String: Any],
-                "Json root type must be equal to the source root type."
-        )
-
-        XCTAssert(json.root as AnyObject === object as AnyObject,
-                "Json root instance must be reference equal to the source root instance."
-        )
+        XCTAssertEqual(json.relativePath, path)
     }
 
-    /// Tests `root`.
-    func testRootArray() {
-        let array: [Any] = []
+    /// Tests `init(root:parent:relativePath:)`.
+    func testInitRootParentRelativePath() {
+        let path = JsonPath(string: "response.items.42.name")
+        let json = Json(root: [], parent: Json(root: []), relativePath: path)
 
-        let json = Json(root: array)
-
-        XCTAssert(json.root is [Any],
-                "Json root type must be equal to the source root type."
-        )
-
-        XCTAssert(json.root as AnyObject === array as AnyObject,
-                "Json root instance must be reference equal to the source root instance."
-        )
-    }
-
-    /// Tests `parent`.
-    func testParent() {
-        let parent = Json(root: [])
-
-        let json = Json(root: [], parent: parent)
-
-        XCTAssert(json.parent === parent,
-                "Json parent must be reference equal to the source parent."
-        )
-    }
-
-    /// Tests `relativePath`.
-    func testRelativePath() {
-        let relativePath = JsonPath(string: "items")
-
-        let json = Json(root: [], relativePath: relativePath)
-
-        XCTAssert(json.relativePath === relativePath,
-                "Json relative path must be reference equal to the source relative path."
-        )
+        XCTAssertNotNil(json.parent)
+        XCTAssertEqual(json.relativePath, path)
     }
 
     /// Tests `absolutePath`.
     func testAbsolutePath() {
         let path0 = JsonPath(string: "response")
         let path1 = JsonPath(string: "items")
-        let path2 = JsonPath(index: 0)
+        let path2 = JsonPath(index: 42)
 
         let level0 = Json(root: [], parent: nil, relativePath: path0)
         let level1 = Json(root: [], parent: level0, relativePath: path1)
         let level2 = Json(root: [], parent: level1, relativePath: path2)
 
-        XCTAssertEqual(level2.absolutePath, path0.appending(path1).appending(path2),
-                "Absolute path must be equal to concatenation of the subsequent paths."
-        )
+        XCTAssertEqual(level2.absolutePath, path0.appending(path1).appending(path2))
     }
 }
