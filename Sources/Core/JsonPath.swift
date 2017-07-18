@@ -25,7 +25,7 @@
 import Foundation
 
 /// `JsonPath` class.
-public class JsonPath {
+public class JsonPath: ExpressibleByStringLiteral, ExpressibleByIntegerLiteral, ExpressibleByArrayLiteral {
 
     /// String path component separator.
     ///
@@ -82,6 +82,29 @@ public class JsonPath {
     /// - Returns: `JsonPath`.
     public func subpath(to index: Int) -> JsonPath {
         return JsonPath(components: Array(components.prefix(index)))
+    }
+
+    // MARK: - ExpressibleByStringLiteral
+    public convenience required init(stringLiteral value: String) {
+        self.init(string: value)
+    }
+
+    public convenience required init(extendedGraphemeClusterLiteral value: String) {
+        self.init(string: value)
+    }
+
+    public convenience required init(unicodeScalarLiteral value: String) {
+        self.init(string: value)
+    }
+
+    // MARK: - ExpressibleByIntegerLiteral
+    public convenience required init(integerLiteral value: Int) {
+        self.init(index: value)
+    }
+
+    // MARK: - ExpressibleByArrayLiteral
+    public convenience required init(arrayLiteral elements: String...) {
+        self.init(components: elements)
     }
 }
 
