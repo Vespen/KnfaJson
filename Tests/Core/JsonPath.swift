@@ -38,6 +38,7 @@ final class JsonPathTestCase: XCTestCase {
         let string = "response.items.42.name"
 
         XCTAssertEqual(JsonPath(string: string).components, string.components(separatedBy: JsonPath.separator))
+        XCTAssertTrue(JsonPath(string: "").components.isEmpty)
     }
 
     /// Tests `init(index:)`.
