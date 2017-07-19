@@ -111,6 +111,26 @@ public final class Json {
         return Json(root: try value(at: path), parent: self, relativePath: path)
     }
 
+    /// Returns the `Json` array value.
+    ///
+    /// - Throws: `JsonError`.
+    /// - Returns: `[Json]`.
+    public func asArray() throws -> [Json] {
+        guard let array = root as? [Any] else {
+            throw JsonError.componentTypeMismatch(absolutePath, [Any].self)
+        }
+
+        var result: [Json] = []
+
+        for (index, item) in array.enumerated() {
+            let relativePath = self.relativePath.appending(JsonPath(index: index))
+
+            result.append(Json(root: item, parent: parent, relativePath: relativePath))
+        }
+
+        return result
+    }
+
     /// Returns the nested array of `Json` instances identified by a given path.
     ///
     /// - Parameter path: Path.

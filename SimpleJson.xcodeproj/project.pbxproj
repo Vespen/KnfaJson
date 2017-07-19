@@ -95,7 +95,6 @@
 		003887C31F1C65540049192E /* SimpleJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		003887CB1F1C65540049192E /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		003887DF1F1C656C0049192E /* SimpleJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98860057C193CE664C5B9D35 /* SimpleJson.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = SimpleJson.podspec; sourceTree = "<group>"; };
 		98860096DCF6C45F8FD498C6 /* SimpleJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleJson.h; sourceTree = "<group>"; };
 		9886016B96B47EEA40AFEE25 /* Json+Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Json+Date.swift"; sourceTree = "<group>"; };
 		988601AAE77661AF2BC6A12B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -175,7 +174,6 @@
 		003089A91F175A73009E067F = {
 			isa = PBXGroup;
 			children = (
-				98860E67864F52D67FCC7D78 /* Deployment */,
 				9886025506D9036AA2CEE2AA /* Documentation */,
 				003089CD1F175A90009E067F /* Frameworks */,
 				003089B41F175A73009E067F /* Products */,
@@ -280,14 +278,6 @@
 				988601AAE77661AF2BC6A12B /* Info.plist */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		98860E67864F52D67FCC7D78 /* Deployment */ = {
-			isa = PBXGroup;
-			children = (
-				98860057C193CE664C5B9D35 /* SimpleJson.podspec */,
-			);
-			name = Deployment;
 			sourceTree = "<group>";
 		};
 		98860F5C96A68033C3FB25ED /* Supporting Files */ = {
