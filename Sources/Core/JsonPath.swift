@@ -51,12 +51,17 @@ public class JsonPath: ExpressibleByStringLiteral, ExpressibleByIntegerLiteral, 
 
     /// Creates a `JsonPath` instance.
     ///
-    /// Path components of a given *string path* **must** be separated by
+    /// If the *string path* is empty, an empty path will be created. Path
+    /// components of a given *string path* **must** be separated by
     /// `JsonPath.separator`.
     ///
     /// - Parameter string: String path.
     public convenience init(string: String) {
-        self.init(components: string.components(separatedBy: JsonPath.separator))
+        if string.isEmpty {
+            self.init()
+        } else {
+            self.init(components: string.components(separatedBy: JsonPath.separator))
+        }
     }
 
     /// Creates a `JsonPath` instance.
