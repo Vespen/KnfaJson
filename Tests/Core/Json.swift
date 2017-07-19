@@ -111,6 +111,28 @@ final class JsonTestCase: BaseTestCase {
         }
     }
 
+    /// Tests `asArray()`.
+    func testAsArray() throws {
+        let level0 = try json.json(at: 0)
+        let level1 = try level0.json(at: "location")
+
+        XCTAssertNoThrow(try level1.asArray())
+
+        if let array = try? level1.asArray() {
+            for (index, item) in array.enumerated() {
+                XCTAssertNotNil(item.parent)
+
+                if let parent = item.parent {
+                    XCTAssert(parent === level0)
+                }
+
+                XCTAssertEqual(item.relativePath, level1.relativePath.appending(JsonPath(index: index)))
+            }
+        }
+
+        XCTAssertThrowsError(try json.json(at: "0.location.0").asArray())
+    }
+
     /// Tests `array(at:)`.
     func testArrayAt() throws {
         let jsonPath: JsonPath = "0.location"
