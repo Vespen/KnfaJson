@@ -140,7 +140,7 @@ public final class Json {
         let value = try self.value(at: path)
 
         guard let array = value as? [Any] else {
-            throw JsonError.componentTypeMismatch(path, [Any].self)
+            throw JsonError.componentTypeMismatch(absolutePath.appending(path), [Any].self)
         }
 
         var result: [Json] = []
