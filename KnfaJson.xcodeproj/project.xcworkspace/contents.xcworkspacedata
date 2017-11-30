@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SimpleJson.xcodeproj">
+      location = "self:/Users/Vespen/Documents/Projects/KnfaJson/KnfaJson.xcodeproj">
    </FileRef>
 </Workspace>

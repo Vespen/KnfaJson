@@ -1,5 +1,5 @@
 //
-//  SimpleJson.h
+//  KnfaJson.h
 //
 //  Copyright (c) 2017 Anton Lagutin
 //

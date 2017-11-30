@@ -5,10 +5,10 @@ branches:
     - master
 env:
   global:
-    - IOS_SCHEME="SimpleJson iOS"
-    - TVOS_SCHEME="SimpleJson tvOS"
-    - MACOS_SCHEME="SimpleJson macOS"
-    - WATCHOS_SCHEME="SimpleJson watchOS"
+    - IOS_SCHEME="KnfaJson iOS"
+    - TVOS_SCHEME="KnfaJson tvOS"
+    - MACOS_SCHEME="KnfaJson macOS"
+    - WATCHOS_SCHEME="KnfaJson watchOS"
   matrix:
     - ACTION="TEST"
       SCHEME="$IOS_SCHEME"
@@ -24,8 +24,8 @@ env:
       DESTINATION="OS=3.2,name=Apple Watch - 42mm"
 script:
   - if [ $ACTION == "TEST" ]; then
-      xcodebuild -project SimpleJson.xcodeproj -scheme "$SCHEME" -destination "$DESTINATION" clean test;
+      xcodebuild -project KnfaJson.xcodeproj -scheme "$SCHEME" -destination "$DESTINATION" clean test;
     else
-      xcodebuild -project SimpleJson.xcodeproj -scheme "$SCHEME" -destination "$DESTINATION" clean build;
+      xcodebuild -project KnfaJson.xcodeproj -scheme "$SCHEME" -destination "$DESTINATION" clean build;
     fi
   - bash <(curl -s https://codecov.io/bash)

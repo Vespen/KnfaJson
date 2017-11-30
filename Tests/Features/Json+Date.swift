@@ -23,7 +23,7 @@
 //
 
 import XCTest
-import SimpleJson
+import KnfaJson
 
 /// `JsonDateTestCase` class.
 final class JsonDateTestCase: BaseTestCase {

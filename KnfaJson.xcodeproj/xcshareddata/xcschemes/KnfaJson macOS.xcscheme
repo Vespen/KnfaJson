@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "003887C21F1C65540049192E"
-               BuildableName = "SimpleJson.framework"
-               BlueprintName = "SimpleJson macOS"
-               ReferencedContainer = "container:SimpleJson.xcodeproj">
+               BuildableName = "KnfaJson.framework"
+               BlueprintName = "KnfaJson macOS"
+               ReferencedContainer = "container:KnfaJson.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
@@ -36,7 +37,7 @@
                BlueprintIdentifier = "003887CA1F1C65540049192E"
                BuildableName = "Tests.xctest"
                BlueprintName = "Tests macOS"
-               ReferencedContainer = "container:SimpleJson.xcodeproj">
+               ReferencedContainer = "container:KnfaJson.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "003887C21F1C65540049192E"
-            BuildableName = "SimpleJson.framework"
-            BlueprintName = "SimpleJson macOS"
-            ReferencedContainer = "container:SimpleJson.xcodeproj">
+            BuildableName = "KnfaJson.framework"
+            BlueprintName = "KnfaJson macOS"
+            ReferencedContainer = "container:KnfaJson.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,6 +57,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -66,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "003887C21F1C65540049192E"
-            BuildableName = "SimpleJson.framework"
-            BlueprintName = "SimpleJson macOS"
-            ReferencedContainer = "container:SimpleJson.xcodeproj">
+            BuildableName = "KnfaJson.framework"
+            BlueprintName = "KnfaJson macOS"
+            ReferencedContainer = "container:KnfaJson.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -84,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "003887C21F1C65540049192E"
-            BuildableName = "SimpleJson.framework"
-            BlueprintName = "SimpleJson macOS"
-            ReferencedContainer = "container:SimpleJson.xcodeproj">
+            BuildableName = "KnfaJson.framework"
+            BlueprintName = "KnfaJson macOS"
+            ReferencedContainer = "container:KnfaJson.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

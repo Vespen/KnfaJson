@@ -1,12 +1,12 @@
-# SimpleJson
+# KnfaJson
 
-[![Build Status](https://travis-ci.org/Vespen/SimpleJson.svg?branch=master)](https://travis-ci.org/Vespen/SimpleJson)
-[![Coverage](https://codecov.io/github/Vespen/SimpleJson/coverage.svg?branch=master)](https://codecov.io/github/Vespen/SimpleJson)
+[![Build Status](https://travis-ci.org/Vespen/KnfaJson.svg?branch=master)](https://travis-ci.org/Vespen/KnfaJson)
+[![Coverage](https://codecov.io/github/Vespen/KnfaJson/coverage.svg?branch=master)](https://codecov.io/github/Vespen/KnfaJson)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-Simple JSON handling in Swift
+Knfa JSON handling in Swift
 
-`SimpleJson` is the helper framework aimed to reduce amount of boilerplate code generated during JSON deserialization process. 
+`KnfaJson` is the helper framework aimed to reduce amount of boilerplate code generated during JSON deserialization process. 
 
 The key class of this framework is `Json` class.
 

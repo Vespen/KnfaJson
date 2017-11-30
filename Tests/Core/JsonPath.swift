@@ -23,7 +23,7 @@
 //
 
 import XCTest
-import SimpleJson
+import KnfaJson
 
 /// `JsonPath` test case class.
 final class JsonPathTestCase: XCTestCase {

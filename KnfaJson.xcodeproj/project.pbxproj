@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		003089BD1F175A73009E067F /* SimpleJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003089B31F175A73009E067F /* SimpleJson.framework */; };
+		003089BD1F175A73009E067F /* KnfaJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003089B31F175A73009E067F /* KnfaJson.framework */; };
 		003089CF1F175A90009E067F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003089CE1F175A90009E067F /* Foundation.framework */; };
-		003887B01F1C649B0049192E /* SimpleJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003887A71F1C649B0049192E /* SimpleJson.framework */; };
-		003887CC1F1C65540049192E /* SimpleJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003887C31F1C65540049192E /* SimpleJson.framework */; };
+		003887B01F1C649B0049192E /* KnfaJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003887A71F1C649B0049192E /* KnfaJson.framework */; };
+		003887CC1F1C65540049192E /* KnfaJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003887C31F1C65540049192E /* KnfaJson.framework */; };
 		003887E71F1C67320049192E /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860CE831C910A884B77563 /* Json.swift */; };
 		003887E81F1C67320049192E /* JsonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988605067FDE0104E5F7B601 /* JsonError.swift */; };
 		003887E91F1C67320049192E /* JsonPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988606BE37FE360E9FF30F5E /* JsonPath.swift */; };
@@ -29,9 +29,9 @@
 		003887F61F1C67330049192E /* Json+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886016B96B47EEA40AFEE25 /* Json+Date.swift */; };
 		003887F71F1C67330049192E /* Json+Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988603E33114CE6DC9FDD654 /* Json+Number.swift */; };
 		003887F81F1C67330049192E /* Json+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860CE0E019090842A86771 /* Json+String.swift */; };
-		003887F91F1C67390049192E /* SimpleJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 98860096DCF6C45F8FD498C6 /* SimpleJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		003887FA1F1C673A0049192E /* SimpleJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 98860096DCF6C45F8FD498C6 /* SimpleJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		003887FB1F1C673B0049192E /* SimpleJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 98860096DCF6C45F8FD498C6 /* SimpleJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		003887F91F1C67390049192E /* KnfaJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 98860096DCF6C45F8FD498C6 /* KnfaJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		003887FA1F1C673A0049192E /* KnfaJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 98860096DCF6C45F8FD498C6 /* KnfaJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		003887FB1F1C673B0049192E /* KnfaJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 98860096DCF6C45F8FD498C6 /* KnfaJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		988600217F653351DFB1A953 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988603C417621B00EC847DEF /* BaseTestCase.swift */; };
 		988601C052229E7910BC25FE /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988608FDD1F66C45401CF344 /* Json.swift */; };
 		98860326566E600D3D165B1D /* JsonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988605067FDE0104E5F7B601 /* JsonError.swift */; };
@@ -52,7 +52,7 @@
 		98860B9360EB894FF3D196FF /* Json+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988607462C1CBC5D7B9C192C /* Json+String.swift */; };
 		98860BD73C9A670B015650E5 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988603C417621B00EC847DEF /* BaseTestCase.swift */; };
 		98860CE2A2A9DABC886645E7 /* Json+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860DA6AE89114D66B70125 /* Json+Date.swift */; };
-		98860CE6047DEF576BAB5503 /* SimpleJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 98860096DCF6C45F8FD498C6 /* SimpleJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98860CE6047DEF576BAB5503 /* KnfaJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 98860096DCF6C45F8FD498C6 /* KnfaJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98860E7A991CF6BF8396E41D /* JsonPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98860FEEF76AF8B571BD4029 /* JsonPath.swift */; };
 		98860EA95F585DCAE26551EE /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988603C417621B00EC847DEF /* BaseTestCase.swift */; };
 		98860EC04ABE245B50CA8231 /* Json.json in Resources */ = {isa = PBXBuildFile; fileRef = 98860EA72393107A3362043C /* Json.json */; };
@@ -68,34 +68,34 @@
 			containerPortal = 003089AA1F175A73009E067F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 003089B21F175A73009E067F;
-			remoteInfo = SimpleJson;
+			remoteInfo = KnfaJson;
 		};
 		003887B11F1C649B0049192E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 003089AA1F175A73009E067F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 003887A61F1C649B0049192E;
-			remoteInfo = "SimpleJson tvOS";
+			remoteInfo = "KnfaJson tvOS";
 		};
 		003887CD1F1C65540049192E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 003089AA1F175A73009E067F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 003887C21F1C65540049192E;
-			remoteInfo = "SimpleJson macOS";
+			remoteInfo = "KnfaJson macOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003089B31F175A73009E067F /* SimpleJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		003089B31F175A73009E067F /* KnfaJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KnfaJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		003089BC1F175A73009E067F /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		003089CE1F175A90009E067F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		003887A71F1C649B0049192E /* SimpleJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		003887A71F1C649B0049192E /* KnfaJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KnfaJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		003887AF1F1C649B0049192E /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		003887C31F1C65540049192E /* SimpleJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		003887C31F1C65540049192E /* KnfaJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KnfaJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		003887CB1F1C65540049192E /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		003887DF1F1C656C0049192E /* SimpleJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98860096DCF6C45F8FD498C6 /* SimpleJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleJson.h; sourceTree = "<group>"; };
+		003887DF1F1C656C0049192E /* KnfaJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KnfaJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98860096DCF6C45F8FD498C6 /* KnfaJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnfaJson.h; sourceTree = "<group>"; };
 		9886016B96B47EEA40AFEE25 /* Json+Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Json+Date.swift"; sourceTree = "<group>"; };
 		988601AAE77661AF2BC6A12B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		98860245344002A9E1BF38F3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003089BD1F175A73009E067F /* SimpleJson.framework in Frameworks */,
+				003089BD1F175A73009E067F /* KnfaJson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003887B01F1C649B0049192E /* SimpleJson.framework in Frameworks */,
+				003887B01F1C649B0049192E /* KnfaJson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003887CC1F1C65540049192E /* SimpleJson.framework in Frameworks */,
+				003887CC1F1C65540049192E /* KnfaJson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,13 +185,13 @@
 		003089B41F175A73009E067F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				003089B31F175A73009E067F /* SimpleJson.framework */,
+				003089B31F175A73009E067F /* KnfaJson.framework */,
 				003089BC1F175A73009E067F /* Tests.xctest */,
-				003887A71F1C649B0049192E /* SimpleJson.framework */,
+				003887A71F1C649B0049192E /* KnfaJson.framework */,
 				003887AF1F1C649B0049192E /* Tests.xctest */,
-				003887C31F1C65540049192E /* SimpleJson.framework */,
+				003887C31F1C65540049192E /* KnfaJson.framework */,
 				003887CB1F1C65540049192E /* Tests.xctest */,
-				003887DF1F1C656C0049192E /* SimpleJson.framework */,
+				003887DF1F1C656C0049192E /* KnfaJson.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -284,7 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				98860245344002A9E1BF38F3 /* Info.plist */,
-				98860096DCF6C45F8FD498C6 /* SimpleJson.h */,
+				98860096DCF6C45F8FD498C6 /* KnfaJson.h */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -305,7 +305,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98860CE6047DEF576BAB5503 /* SimpleJson.h in Headers */,
+				98860CE6047DEF576BAB5503 /* KnfaJson.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +313,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003887F91F1C67390049192E /* SimpleJson.h in Headers */,
+				003887F91F1C67390049192E /* KnfaJson.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +321,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003887FA1F1C673A0049192E /* SimpleJson.h in Headers */,
+				003887FA1F1C673A0049192E /* KnfaJson.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,16 +329,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003887FB1F1C673B0049192E /* SimpleJson.h in Headers */,
+				003887FB1F1C673B0049192E /* KnfaJson.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		003089B21F175A73009E067F /* SimpleJson iOS */ = {
+		003089B21F175A73009E067F /* KnfaJson iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 003089C71F175A73009E067F /* Build configuration list for PBXNativeTarget "SimpleJson iOS" */;
+			buildConfigurationList = 003089C71F175A73009E067F /* Build configuration list for PBXNativeTarget "KnfaJson iOS" */;
 			buildPhases = (
 				003089AE1F175A73009E067F /* Sources */,
 				003089AF1F175A73009E067F /* Frameworks */,
@@ -349,9 +349,9 @@
 			);
 			dependencies = (
 			);
-			name = "SimpleJson iOS";
-			productName = SimpleJson;
-			productReference = 003089B31F175A73009E067F /* SimpleJson.framework */;
+			name = "KnfaJson iOS";
+			productName = KnfaJson;
+			productReference = 003089B31F175A73009E067F /* KnfaJson.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		003089BB1F175A73009E067F /* Tests iOS */ = {
@@ -368,13 +368,13 @@
 				003089BF1F175A73009E067F /* PBXTargetDependency */,
 			);
 			name = "Tests iOS";
-			productName = SimpleJsonTests;
+			productName = KnfaJsonTests;
 			productReference = 003089BC1F175A73009E067F /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		003887A61F1C649B0049192E /* SimpleJson tvOS */ = {
+		003887A61F1C649B0049192E /* KnfaJson tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 003887B81F1C649B0049192E /* Build configuration list for PBXNativeTarget "SimpleJson tvOS" */;
+			buildConfigurationList = 003887B81F1C649B0049192E /* Build configuration list for PBXNativeTarget "KnfaJson tvOS" */;
 			buildPhases = (
 				003887A21F1C649B0049192E /* Sources */,
 				003887A31F1C649B0049192E /* Frameworks */,
@@ -385,9 +385,9 @@
 			);
 			dependencies = (
 			);
-			name = "SimpleJson tvOS";
-			productName = "SimpleJson tvOS";
-			productReference = 003887A71F1C649B0049192E /* SimpleJson.framework */;
+			name = "KnfaJson tvOS";
+			productName = "KnfaJson tvOS";
+			productReference = 003887A71F1C649B0049192E /* KnfaJson.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		003887AE1F1C649B0049192E /* Tests tvOS */ = {
@@ -404,13 +404,13 @@
 				003887B21F1C649B0049192E /* PBXTargetDependency */,
 			);
 			name = "Tests tvOS";
-			productName = "SimpleJson tvOSTests";
+			productName = "KnfaJson tvOSTests";
 			productReference = 003887AF1F1C649B0049192E /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		003887C21F1C65540049192E /* SimpleJson macOS */ = {
+		003887C21F1C65540049192E /* KnfaJson macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 003887D41F1C65540049192E /* Build configuration list for PBXNativeTarget "SimpleJson macOS" */;
+			buildConfigurationList = 003887D41F1C65540049192E /* Build configuration list for PBXNativeTarget "KnfaJson macOS" */;
 			buildPhases = (
 				003887BE1F1C65540049192E /* Sources */,
 				003887BF1F1C65540049192E /* Frameworks */,
@@ -421,9 +421,9 @@
 			);
 			dependencies = (
 			);
-			name = "SimpleJson macOS";
-			productName = "SimpleJson macOS";
-			productReference = 003887C31F1C65540049192E /* SimpleJson.framework */;
+			name = "KnfaJson macOS";
+			productName = "KnfaJson macOS";
+			productReference = 003887C31F1C65540049192E /* KnfaJson.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		003887CA1F1C65540049192E /* Tests macOS */ = {
@@ -440,13 +440,13 @@
 				003887CE1F1C65540049192E /* PBXTargetDependency */,
 			);
 			name = "Tests macOS";
-			productName = "SimpleJson macOSTests";
+			productName = "KnfaJson macOSTests";
 			productReference = 003887CB1F1C65540049192E /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		003887DE1F1C656C0049192E /* SimpleJson watchOS */ = {
+		003887DE1F1C656C0049192E /* KnfaJson watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 003887E41F1C656C0049192E /* Build configuration list for PBXNativeTarget "SimpleJson watchOS" */;
+			buildConfigurationList = 003887E41F1C656C0049192E /* Build configuration list for PBXNativeTarget "KnfaJson watchOS" */;
 			buildPhases = (
 				003887DA1F1C656C0049192E /* Sources */,
 				003887DB1F1C656C0049192E /* Frameworks */,
@@ -457,9 +457,9 @@
 			);
 			dependencies = (
 			);
-			name = "SimpleJson watchOS";
-			productName = "SimpleJson watchOS";
-			productReference = 003887DF1F1C656C0049192E /* SimpleJson.framework */;
+			name = "KnfaJson watchOS";
+			productName = "KnfaJson watchOS";
+			productReference = 003887DF1F1C656C0049192E /* KnfaJson.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -502,7 +502,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 003089AD1F175A73009E067F /* Build configuration list for PBXProject "SimpleJson" */;
+			buildConfigurationList = 003089AD1F175A73009E067F /* Build configuration list for PBXProject "KnfaJson" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -514,13 +514,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				003089B21F175A73009E067F /* SimpleJson iOS */,
+				003089B21F175A73009E067F /* KnfaJson iOS */,
 				003089BB1F175A73009E067F /* Tests iOS */,
-				003887A61F1C649B0049192E /* SimpleJson tvOS */,
+				003887A61F1C649B0049192E /* KnfaJson tvOS */,
 				003887AE1F1C649B0049192E /* Tests tvOS */,
-				003887C21F1C65540049192E /* SimpleJson macOS */,
+				003887C21F1C65540049192E /* KnfaJson macOS */,
 				003887CA1F1C65540049192E /* Tests macOS */,
-				003887DE1F1C656C0049192E /* SimpleJson watchOS */,
+				003887DE1F1C656C0049192E /* KnfaJson watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -677,17 +677,17 @@
 /* Begin PBXTargetDependency section */
 		003089BF1F175A73009E067F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 003089B21F175A73009E067F /* SimpleJson iOS */;
+			target = 003089B21F175A73009E067F /* KnfaJson iOS */;
 			targetProxy = 003089BE1F175A73009E067F /* PBXContainerItemProxy */;
 		};
 		003887B21F1C649B0049192E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 003887A61F1C649B0049192E /* SimpleJson tvOS */;
+			target = 003887A61F1C649B0049192E /* KnfaJson tvOS */;
 			targetProxy = 003887B11F1C649B0049192E /* PBXContainerItemProxy */;
 		};
 		003887CE1F1C65540049192E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 003887C21F1C65540049192E /* SimpleJson macOS */;
+			target = 003887C21F1C65540049192E /* KnfaJson macOS */;
 			targetProxy = 003887CD1F1C65540049192E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -805,8 +805,8 @@
 				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json";
-				PRODUCT_NAME = SimpleJson;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.knfa-json";
+				PRODUCT_NAME = KnfaJson;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -823,8 +823,8 @@
 				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json";
-				PRODUCT_NAME = SimpleJson;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.knfa-json";
+				PRODUCT_NAME = KnfaJson;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -836,7 +836,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json-tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.knfa-json-tests";
 				PRODUCT_NAME = Tests;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
@@ -848,7 +848,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json-tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.knfa-json-tests";
 				PRODUCT_NAME = Tests;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
@@ -866,8 +866,8 @@
 				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json";
-				PRODUCT_NAME = SimpleJson;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.knfa-json";
+				PRODUCT_NAME = KnfaJson;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -888,8 +888,8 @@
 				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json";
-				PRODUCT_NAME = SimpleJson;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.knfa-json";
+				PRODUCT_NAME = KnfaJson;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -905,7 +905,7 @@
 				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json-tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.knfa-json-tests";
 				PRODUCT_NAME = Tests;
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
@@ -921,7 +921,7 @@
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json-tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.knfa-json-tests";
 				PRODUCT_NAME = Tests;
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
@@ -943,8 +943,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json";
-				PRODUCT_NAME = SimpleJson;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.knfa-json";
+				PRODUCT_NAME = KnfaJson;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -966,8 +966,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json";
-				PRODUCT_NAME = SimpleJson;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.knfa-json";
+				PRODUCT_NAME = KnfaJson;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -983,7 +983,7 @@
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json-tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.knfa-json-tests";
 				PRODUCT_NAME = Tests;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 3.0;
@@ -1000,7 +1000,7 @@
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json-tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.knfa-json-tests";
 				PRODUCT_NAME = Tests;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 3.0;
@@ -1019,8 +1019,8 @@
 				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json";
-				PRODUCT_NAME = SimpleJson;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.knfa-json";
+				PRODUCT_NAME = KnfaJson;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -1042,8 +1042,8 @@
 				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.simple-json";
-				PRODUCT_NAME = SimpleJson;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knfa-dev.knfa-json";
+				PRODUCT_NAME = KnfaJson;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -1055,7 +1055,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		003089AD1F175A73009E067F /* Build configuration list for PBXProject "SimpleJson" */ = {
+		003089AD1F175A73009E067F /* Build configuration list for PBXProject "KnfaJson" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				003089C51F175A73009E067F /* Debug */,
@@ -1064,7 +1064,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		003089C71F175A73009E067F /* Build configuration list for PBXNativeTarget "SimpleJson iOS" */ = {
+		003089C71F175A73009E067F /* Build configuration list for PBXNativeTarget "KnfaJson iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				003089C81F175A73009E067F /* Debug */,
@@ -1082,7 +1082,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		003887B81F1C649B0049192E /* Build configuration list for PBXNativeTarget "SimpleJson tvOS" */ = {
+		003887B81F1C649B0049192E /* Build configuration list for PBXNativeTarget "KnfaJson tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				003887B91F1C649B0049192E /* Debug */,
@@ -1100,7 +1100,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		003887D41F1C65540049192E /* Build configuration list for PBXNativeTarget "SimpleJson macOS" */ = {
+		003887D41F1C65540049192E /* Build configuration list for PBXNativeTarget "KnfaJson macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				003887D51F1C65540049192E /* Debug */,
@@ -1118,7 +1118,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		003887E41F1C656C0049192E /* Build configuration list for PBXNativeTarget "SimpleJson watchOS" */ = {
+		003887E41F1C656C0049192E /* Build configuration list for PBXNativeTarget "KnfaJson watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				003887E51F1C656C0049192E /* Debug */,
