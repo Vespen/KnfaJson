@@ -35,7 +35,7 @@ final class JsonNumberTestCase: BaseTestCase {
         XCTAssertNoThrow(try json.json(at: jsonPath).asNumber())
 
         if let number = try? json.json(at: jsonPath).asNumber() {
-            XCTAssertEqualWithAccuracy(number.doubleValue, 40.730610, accuracy: 1e-6)
+            XCTAssertEqual(number.doubleValue, 40.730610, accuracy: 1e-6)
         }
 
         XCTAssertThrowsError(try json.json(at: 0).asNumber())
@@ -61,7 +61,7 @@ final class JsonNumberTestCase: BaseTestCase {
         XCTAssertNoThrow(try json.json(at: jsonPath).asFloat())
 
         if let float = try? json.json(at: jsonPath).asFloat() {
-            XCTAssertEqualWithAccuracy(float, 40.730610, accuracy: 1e-6)
+            XCTAssertEqual(float, 40.730610, accuracy: 1e-6)
         }
 
         XCTAssertThrowsError(try json.json(at: 0).asFloat())
@@ -74,7 +74,7 @@ final class JsonNumberTestCase: BaseTestCase {
         XCTAssertNoThrow(try json.json(at: jsonPath).asDouble())
 
         if let double = try? json.json(at: jsonPath).asDouble() {
-            XCTAssertEqualWithAccuracy(double, 40.730610, accuracy: 1e-6)
+            XCTAssertEqual(double, 40.730610, accuracy: 1e-6)
         }
 
         XCTAssertThrowsError(try json.json(at: 0).asDouble())
@@ -100,7 +100,7 @@ final class JsonNumberTestCase: BaseTestCase {
         XCTAssertNoThrow(try json.number(at: jsonPath))
 
         if let number = try? json.number(at: jsonPath) {
-            XCTAssertEqualWithAccuracy(number.doubleValue, 40.730610, accuracy: 1e-6)
+            XCTAssertEqual(number.doubleValue, 40.730610, accuracy: 1e-6)
         }
 
         XCTAssertThrowsError(try json.number(at: 0))
@@ -126,7 +126,7 @@ final class JsonNumberTestCase: BaseTestCase {
         XCTAssertNoThrow(try json.float(at: jsonPath))
 
         if let float = try? json.float(at: jsonPath) {
-            XCTAssertEqualWithAccuracy(float, 40.730610, accuracy: 1e-6)
+            XCTAssertEqual(float, 40.730610, accuracy: 1e-6)
         }
 
         XCTAssertThrowsError(try json.float(at: 0))
@@ -139,7 +139,7 @@ final class JsonNumberTestCase: BaseTestCase {
         XCTAssertNoThrow(try json.double(at: jsonPath))
 
         if let double = try? json.double(at: jsonPath) {
-            XCTAssertEqualWithAccuracy(double, 40.730610, accuracy: 1e-6)
+            XCTAssertEqual(double, 40.730610, accuracy: 1e-6)
         }
 
         XCTAssertThrowsError(try json.double(at: 0))

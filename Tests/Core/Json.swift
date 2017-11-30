@@ -146,13 +146,13 @@ final class JsonTestCase: BaseTestCase {
                 XCTAssert(first.root is NSNumber)
 
                 if let number = first.root as? NSNumber {
-                    XCTAssertEqualWithAccuracy(number.doubleValue, 40.730610, accuracy: 1e-6)
+                    XCTAssertEqual(number.doubleValue, 40.730610, accuracy: 1e-6)
                 }
 
                 XCTAssert(last.root is NSNumber)
 
                 if let number = last.root as? NSNumber {
-                    XCTAssertEqualWithAccuracy(number.doubleValue, -73.935242, accuracy: 1e-6)
+                    XCTAssertEqual(number.doubleValue, -73.935242, accuracy: 1e-6)
                 }
             }
         }
