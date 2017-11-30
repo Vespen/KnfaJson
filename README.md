@@ -4,7 +4,7 @@
 [![Coverage](https://codecov.io/github/Vespen/KnfaJson/coverage.svg?branch=master)](https://codecov.io/github/Vespen/KnfaJson)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-Knfa JSON handling in Swift
+Simple JSON handling in Swift
 
 `KnfaJson` is the helper framework aimed to reduce amount of boilerplate code generated during JSON deserialization process. 
 
