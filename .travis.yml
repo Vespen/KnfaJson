@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode8.3
+osx_image: xcode9.1
 branches:
   only:
     - master
@@ -12,20 +12,20 @@ env:
   matrix:
     - ACTION="TEST"
       SCHEME="$IOS_SCHEME"
-      DESTINATION="OS=10.3.1,name=iPhone 6s"
+      DESTINATION="OS=11.1,name=iPhone X"
     - ACTION="TEST"
       SCHEME="$TVOS_SCHEME"
-      DESTINATION="OS=10.2,name=Apple TV 1080p"
+      DESTINATION="OS=11.1,name=Apple TV 4K"
     - ACTION="TEST"
       SCHEME="$MACOS_SCHEME"
       DESTINATION="arch=x86_64"
     - ACTION="BUILD"
       SCHEME="$WATCHOS_SCHEME"
-      DESTINATION="OS=3.2,name=Apple Watch - 42mm"
+      DESTINATION="OS=4.0,name=Apple Watch - 42mm"
 script:
   - if [ $ACTION == "TEST" ]; then
-      xcodebuild -project KnfaJson.xcodeproj -scheme "$SCHEME" -destination "$DESTINATION" clean test;
+      xcodebuild -project KnfaJson.xcodeproj -scheme "$SCHEME" -destination "$DESTINATION" test;
     else
-      xcodebuild -project KnfaJson.xcodeproj -scheme "$SCHEME" -destination "$DESTINATION" clean build;
+      xcodebuild -project KnfaJson.xcodeproj -scheme "$SCHEME" -destination "$DESTINATION" build;
     fi
   - bash <(curl -s https://codecov.io/bash)
